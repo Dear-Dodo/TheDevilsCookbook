@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a213e7f9de3ab9f2b737e3c79750269, type: 3}
+  m_Name: Slow 1
+  m_EditorClassIdentifier: 
+  DisplayName: Manipulate Time
+  Description: Alters the flow of time, slowing ingredients within the spell's radius.
+  BaseCooldown: 6
+  BaseMaxCharges: 1
+  _SpellIcon: {fileID: 21300000, guid: 67ed05fb4150d374eb0186e07400ff86, type: 3}
+  SelectorPrefab: {fileID: 5498708315996668424, guid: 8665ce72b7d0e94fdbc5fbb99c8e5fbf, type: 3}
+  SelectorGraphics:
+    DecalColour: {r: 0, g: 3.4509804, b: 4, a: 1}
+    InvalidDecalColor: {r: 0.29411766, g: 0.29411766, b: 0.29411766, a: 0.5019608}
+    Decal: {fileID: 2800000, guid: 3c3f1e42c2306e147889a3630a029853, type: 3}
+    VFX: {fileID: 0}
+  CastGraphics:
+    DecalColour: {r: 0, g: 0, b: 0, a: 0}
+    InvalidDecalColor: {r: 0, g: 0, b: 0, a: 0}
+    Decal: {fileID: 0}
+    VFX: {fileID: 8926484042661614526, guid: 5a9ad4ed59ba44b459dcd61f5fc6ce74, type: 3}
+  CastSound:
+    Guid:
+      Data1: 1732835144
+      Data2: 1082575496
+      Data3: 883490728
+      Data4: -689705319
+    Path: event:/Effects/Spell/Slow
+  _BaseCastRange: 3
+  _Radius: 2.5
+  _Duration: 7.5
+  _DebuffLingerTime: 1
+  _SlowFactor: 0.75

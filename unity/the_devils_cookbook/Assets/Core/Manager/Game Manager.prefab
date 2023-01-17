@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1435383887144329279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3525277847112891051}
+  - component: {fileID: 8972178735053430258}
+  - component: {fileID: 3329963973164379169}
+  - component: {fileID: -4031781679690861964}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3525277847112891051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435383887144329279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7244052602355385681}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8972178735053430258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435383887144329279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489f1d06b069a2241ab4268e625197e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _TipPecrcent: 0.25
+  _WindowManager:
+    _Windows:
+      m_keys:
+      - Main Menu
+      - HUD
+      - Pause
+      - Settings
+      - Objectives
+      m_values:
+      - Window: {fileID: 2036876550570212881, guid: caabb2b2b05bdbb49b658f9f5b6c954d, type: 3}
+        IsSingle: 1
+        InitialState: 1
+        InitialLayer: 0
+      - Window: {fileID: 3913481890306919640, guid: 14bc25a107129102b9969b2de25b7e43, type: 3}
+        IsSingle: 1
+        InitialState: 1
+        InitialLayer: 0
+      - Window: {fileID: 4621690335029378108, guid: 23d287daa5a4a4bdfb20ae4da586e421, type: 3}
+        IsSingle: 1
+        InitialState: 0
+        InitialLayer: 2
+      - Window: {fileID: 5073139508132881208, guid: 8220cd04620a9c247a5e6d1ebc4ac67c, type: 3}
+        IsSingle: 1
+        InitialState: 0
+        InitialLayer: 2
+      - Window: {fileID: -1083056617813855775, guid: cbe18d9751daf382b958c2dbc85fd803, type: 3}
+        IsSingle: 1
+        InitialState: 0
+        InitialLayer: 1
+  _PatronManager:
+    PatronPrefabs:
+      m_keys: 000000000100000002000000
+      m_values:
+      - Prefabs:
+        - {fileID: -9087069111746275273, guid: ff0267b39497a7544b1b39ba207f5b89, type: 3}
+        BaseColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+        TailColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+      - Prefabs:
+        - {fileID: -9087069111746275273, guid: ff0267b39497a7544b1b39ba207f5b89, type: 3}
+        BaseColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+        TailColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+      - Prefabs:
+        - {fileID: -9087069111746275273, guid: ff0267b39497a7544b1b39ba207f5b89, type: 3}
+        BaseColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+        TailColours:
+        - {r: 0.84313726, g: 0, b: 0.3777693, a: 1}
+        - {r: 0.99607843, g: 0.6712703, b: 0, a: 1}
+        - {r: 0.4404158, g: 0.18807451, b: 0.94509804, a: 1}
+        - {r: 0.54901963, g: 0, b: 0.30142266, a: 1}
+        - {r: 1, g: 0.020999968, b: 0.201136, a: 1}
+        - {r: 0, g: 0.94778377, b: 0.99607843, a: 1}
+    PatronWindows: []
+    Patrons: []
+    DifficultyRewards:
+      m_keys: 000000000100000002000000
+      m_values: 0a0000000f00000014000000
+  _OrderManager:
+    Ingredients:
+    - {fileID: 11400000, guid: 7308b36ade7877c4a88ff29d8eb0e45b, type: 2}
+    - {fileID: 11400000, guid: 3529794f55541094aa75e22c98cad03e, type: 2}
+    - {fileID: 11400000, guid: 233ccaf0822341a4abf26cf71f19848b, type: 2}
+    - {fileID: 11400000, guid: 3c27fac3321a1834db7cc18425c18321, type: 2}
+    - {fileID: 11400000, guid: aa8c7e1ea0652bf47b417352d494fa7e, type: 2}
+    - {fileID: 11400000, guid: c0f0281d8c69287428c03568ac0040f3, type: 2}
+    FailedOrders: 0
+  _AudioManager: {fileID: 2193916011449882815}
+  _SceneLoader:
+    _Scenes:
+      m_keys:
+      - Main Menu
+      - Loading
+      - Shop
+      m_values:
+      - SceneName: MainMenu
+      - SceneName: Loading
+      - SceneName: ShopScene
+  _LevelLoader:
+    LoadingScene:
+      SceneName: Loading
+    FadeToBlackPrefab: {fileID: 9187553837660690241, guid: 888b0ecaa8a7678429f87767241ddcca, type: 3}
+    FadeToBlackTime: 1
+    _Levels:
+    - SceneName: Tutorial
+      Data: {fileID: 11400000, guid: f1845f1f0315bfd59b72cde9c879de34, type: 2}
+    - SceneName: Level_01
+      Data: {fileID: 11400000, guid: c2801ca8470798145ba2ef33de4ef9d2, type: 2}
+    - SceneName: Level_02
+      Data: {fileID: 11400000, guid: 6dcbed1691710be448d0b7177e5881eb, type: 2}
+    FadeToBlackObject: {fileID: 0}
+    LoadTimeMs:
+      Min: 2000
+      Max: 5000
+  _DialogueSystem:
+    _DialogueBoxPrefab: {fileID: 4546955748114793621, guid: d22df68abfb860ac6b2a074a45b524ed, type: 3}
+  _DebugConsole: {fileID: 3948375080000667652, guid: c2d4882a737e6234686c134b7e6b36fb, type: 3}
+  _LevelIntroCutscene:
+    Player: {fileID: 0}
+    SoulImbuer: {fileID: 0}
+    Oven: {fileID: 0}
+    TrashCan: {fileID: 0}
+    Sprite3: {fileID: 21300000, guid: 434e68803cf31454591ef3e6423703a4, type: 3}
+    Sprite2: {fileID: 21300000, guid: cc8839408173788469afd57f6cb246c5, type: 3}
+    Sprite1: {fileID: 21300000, guid: 0c5341952f840bf4b9edfcfaa49a2142, type: 3}
+    SpriteGo: {fileID: 21300000, guid: 069e976f0eb22d648b5bf5c1898d6b0b, type: 3}
+    SequenceTime: 1
+    ViewingCamera: {fileID: 0}
+--- !u!114 &3329963973164379169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435383887144329279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0626ea942d61244f387514657ac8e0aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4031781679690861964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435383887144329279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c3323902f075a43b42fb0b2c1bea65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5638552988705359732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7244052602355385681}
+  - component: {fileID: 2193916011449882815}
+  - component: {fileID: 3088174757964553938}
+  - component: {fileID: 1996937240132822405}
+  - component: {fileID: 7714638077871857600}
+  - component: {fileID: 6783249148039625131}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7244052602355385681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3525277847112891051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2193916011449882815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf77fa5461f5c84b932b5db3de5f9cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioEvents:
+  - name: MenuMusic
+    emitter: {fileID: 3088174757964553938}
+  - name: TutorialMusic
+    emitter: {fileID: 1996937240132822405}
+  - name: LevelMusic
+    emitter: {fileID: 7714638077871857600}
+  - name: ShopMusic
+    emitter: {fileID: 6783249148039625131}
+  MusicVolume: 0.4
+  SFXVolume: 0.4
+  MasterVolume: 0.5
+--- !u!114 &3088174757964553938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -726788473
+      Data2: 1216357617
+      Data3: 948376497
+      Data4: 1912233704
+    Path: event:/Music/MenuMusic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1996937240132822405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 821779026
+      Data2: 1306913076
+      Data3: -759003244
+      Data4: -1100685231
+    Path: event:/Music/TutorialMusic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &7714638077871857600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -132365362
+      Data2: 1195713929
+      Data3: -731896423
+      Data4: -1481607851
+    Path: event:/Music/LevelMusic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &6783249148039625131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638552988705359732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 404215685
+      Data2: 1093938360
+      Data3: -428455764
+      Data4: -1373785967
+    Path: event:/Music/ShopMusic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20

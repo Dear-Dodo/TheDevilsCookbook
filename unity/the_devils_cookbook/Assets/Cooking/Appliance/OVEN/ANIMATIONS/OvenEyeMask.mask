@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OvenEyeMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:APPL_Oven_01
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:APPL_Oven_01/Oven_Rig_v1:OvenBody
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:APPL_Oven_01/Oven_Rig_v1:OvenTongue
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:curve1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:curve1/Oven_Rig_v1:nurbsCircle1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:curve2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:curve2/Oven_Rig_v1:nurbsCircle2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_tongue_ctrl_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_tongue_ctrl_1/Oven_Rig_v1:Oven_tongue_ctrl_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_tongue_ctrl_1/Oven_Rig_v1:Oven_tongue_ctrl_2/Oven_Rig_v1:Oven_tongue_ctrl_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_tongue_ctrl_1/Oven_Rig_v1:Oven_tongue_ctrl_2/Oven_Rig_v1:Oven_tongue_ctrl_3/Oven_Rig_v1:Oven_tongue_ctrl_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_tongue_ctrl_1/Oven_Rig_v1:Oven_tongue_ctrl_2/Oven_Rig_v1:Oven_tongue_ctrl_3/Oven_Rig_v1:Oven_tongue_ctrl_4/Oven_Rig_v1:Oven_tongue_ctrl_5
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_eye_ctrl
+    m_Weight: 0
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_lowerJawMain_ctrl
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_lowerJawMain_ctrl/Oven_Rig_v1:Oven_LowerJaw_ctrl_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_lowerJawMain_ctrl/Oven_Rig_v1:Oven_LowerJaw_ctrl_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_lowerJawMain_ctrl/Oven_Rig_v1:Oven_LowerJaw_ctrl_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl/Oven_Rig_v1:nurbsCircle3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl/Oven_Rig_v1:nurbsCircle4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl/Oven_Rig_v1:Oven_UpperJaw_ctrl_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl/Oven_Rig_v1:Oven_UpperJaw_ctrl_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_Root_Ctrl/Oven_Rig_v1:Oven_LowerSpine_ctrl/Oven_Rig_v1:Oven_UpperSpine_Ctrl/Oven_Rig_v1:Oven_UpperJawMain_Ctrl/Oven_Rig_v1:Oven_UpperJaw_ctrl_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_L_foot_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_L_foot_jt_1/Oven_Rig_v1:Oven_L_foot_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_L_foot_jt_1/Oven_Rig_v1:Oven_L_foot_jt_2/Oven_Rig_v1:Oven_L_foot_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_L_foot_jt_1/Oven_Rig_v1:Oven_L_foot_jt_2/Oven_Rig_v1:Oven_L_foot_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_L_foot_jt_1/Oven_Rig_v1:Oven_L_foot_jt_2/Oven_Rig_v1:Oven_L_foot_jt_5
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_R_foot_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_R_foot_jt_1/Oven_Rig_v1:Oven_R_foot_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_R_foot_jt_1/Oven_Rig_v1:Oven_R_foot_jt_2/Oven_Rig_v1:Oven_R_foot_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_R_foot_jt_1/Oven_Rig_v1:Oven_R_foot_jt_2/Oven_Rig_v1:Oven_R_foot_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_R_foot_jt_1/Oven_Rig_v1:Oven_R_foot_jt_2/Oven_Rig_v1:Oven_R_foot_jt_5
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_3/Oven_Rig_v1:Oven_lowerJaw_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_5
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_5/Oven_Rig_v1:Oven_lowerJaw_jt_6
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_8
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_1/Oven_Rig_v1:Oven_lowerJaw_jt_2/Oven_Rig_v1:Oven_lowerJaw_jt_8/Oven_Rig_v1:Oven_lowerJaw_jt_7
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_Spine_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_Spine_jt_3/Oven_Rig_v1:Oven_eye_jt
+    m_Weight: 0
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_Spine_jt_3/Oven_Rig_v1:Oven_eye_jt/Oven_Rig_v1:Oven_eye_nub
+    m_Weight: 0
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_Spine_jt_3/Oven_Rig_v1:Oven_Spine_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_4/Oven_Rig_v1:Oven_UpperJaw_jt_5
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_6
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_6/Oven_Rig_v1:Oven_UpperJaw_jt_7
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_8
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_8/Oven_Rig_v1:Oven_UpperJaw_jt_9
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_10
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_Spine_jt_2/Oven_Rig_v1:Oven_UpperJaw_jt_1/Oven_Rig_v1:Oven_UpperJaw_jt_10/Oven_Rig_v1:Oven_UpperJaw_jt_11
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0/Oven_Rig_v1:Oven_tongue_jt_1
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0/Oven_Rig_v1:Oven_tongue_jt_1/Oven_Rig_v1:Oven_tongue_jt_2
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0/Oven_Rig_v1:Oven_tongue_jt_1/Oven_Rig_v1:Oven_tongue_jt_2/Oven_Rig_v1:Oven_tongue_jt_3
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0/Oven_Rig_v1:Oven_tongue_jt_1/Oven_Rig_v1:Oven_tongue_jt_2/Oven_Rig_v1:Oven_tongue_jt_3/Oven_Rig_v1:Oven_tongue_jt_4
+    m_Weight: 1
+  - m_Path: Oven_Rig_v1:Oven_skeleton/Oven_Rig_v1:Oven_Root_jt/Oven_Rig_v1:Oven_Spine_jt_1/Oven_Rig_v1:Oven_tongue_jt_0/Oven_Rig_v1:Oven_tongue_jt_1/Oven_Rig_v1:Oven_tongue_jt_2/Oven_Rig_v1:Oven_tongue_jt_3/Oven_Rig_v1:Oven_tongue_jt_4/Oven_Rig_v1:Oven_tongue_jt_5
+    m_Weight: 1

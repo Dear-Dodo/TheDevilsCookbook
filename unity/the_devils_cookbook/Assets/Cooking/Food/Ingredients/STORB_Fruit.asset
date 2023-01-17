@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0efa9a3a044c44cace3cfa012d82f0, type: 3}
+  m_Name: STORB_Fruit
+  m_EditorClassIdentifier: 
+  Name: Fruit
+  StorageTypes: 0
+  Icon: {fileID: 21300000, guid: 03770cfad3b491743bfc809824bcd9b7, type: 3}
+  Prefab: {fileID: 5159384421793443372, guid: b0c409425a4835f60baca2b0580fd9bb, type: 3}
+  IsOrderable: 0
+  ValidDifficulties: 0
+  Weighting: 0
+  Creature: {fileID: -905364117230810359, guid: 31402dfdfda2dc64a82a4059b8629f23, type: 3}

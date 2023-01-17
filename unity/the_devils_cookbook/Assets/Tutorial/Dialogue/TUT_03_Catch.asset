@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_03_Catch
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: "And here they are! Looking a little too lively, I think, but I\u2019m
+      sure you\u2019ll be able to figure it out. Try grabbing them all up with one
+      of those <b>fancy spells of yours</b>."
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: 
+    Text: Press Q to select your catching spell, then cast it under an ingredient
+      with L-Click to catch it. <b>You get a bonus if you capture more than one at
+      once</b>.
+    Portrait: {fileID: 0}

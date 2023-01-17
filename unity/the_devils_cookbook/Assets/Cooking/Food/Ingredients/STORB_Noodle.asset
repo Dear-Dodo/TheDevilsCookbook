@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0efa9a3a044c44cace3cfa012d82f0, type: 3}
+  m_Name: STORB_Noodle
+  m_EditorClassIdentifier: 
+  Name: Noodle
+  StorageTypes: 0
+  Icon: {fileID: 21300000, guid: 9968f4a9510742043ba0ac4075edd0f3, type: 3}
+  Prefab: {fileID: 5159384421793443372, guid: 0268fe9764de7744e9b695ce8b52748f, type: 3}
+  IsOrderable: 0
+  ValidDifficulties: 0
+  Weighting: 0
+  Creature: {fileID: 7277646488796180924, guid: cdb34186df42fdc4b85de5a48a21476f, type: 3}

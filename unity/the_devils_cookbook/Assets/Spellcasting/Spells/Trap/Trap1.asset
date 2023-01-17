@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215cff04c682cc4f2814c9d484375ef2, type: 3}
+  m_Name: Trap1
+  m_EditorClassIdentifier: 
+  DisplayName: Compelling Egress
+  Description: Opens an ephemeral portal at the target area, transporting ingredients
+    within its radius to your inventory after a short delay. The cooldown is immediately
+    refreshed if nothing is caught.
+  BaseCooldown: 2.5
+  BaseMaxCharges: 1
+  _SpellIcon: {fileID: 21300000, guid: f5317995ba6000a48b622b87509ae676, type: 3}
+  SelectorPrefab: {fileID: 5498708315996668424, guid: 8665ce72b7d0e94fdbc5fbb99c8e5fbf, type: 3}
+  SelectorGraphics:
+    DecalColour: {r: 0.7490196, g: 0, b: 0.3112435, a: 0.69803923}
+    InvalidDecalColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0.5019608}
+    Decal: {fileID: 2800000, guid: 3c3f1e42c2306e147889a3630a029853, type: 3}
+    VFX: {fileID: 8926484042661614526, guid: 164c54f15163fa56a84ca9ea17b61fa5, type: 3}
+  CastGraphics:
+    DecalColour: {r: 0, g: 0, b: 0, a: 0}
+    InvalidDecalColor: {r: 0, g: 0, b: 0, a: 0}
+    Decal: {fileID: 0}
+    VFX: {fileID: 8926484042661614526, guid: 0af03bb8c82bfd934a706b93130e3c3e, type: 3}
+  CastSound:
+    Guid:
+      Data1: 1610671158
+      Data2: 1219635240
+      Data3: 1708784054
+      Data4: 107425213
+    Path: event:/Effects/Spell/Grab
+  _BaseDelay: 0.5
+  _BaseDuration: 0
+  _BaseRange: 2.5
+  _BaseCastRange: 7.5
+  _PollTime: 0
+  _RefundCastOnWhiff: 1
+  _VFXColour:
+    serializedVersion: 2
+    key0: {r: 2.305883, g: 0, b: 0.26901996, a: 1}
+    key1: {r: 0.07631108, g: 0, b: 0.21698111, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  _VFXSizeOverLife:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _VFXSpawnRate: 16
+  _VFXCastSizeOverLife:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.08382066
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.21738623
+      value: 0.08382066
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6813725
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: -0.0052267187
+      outSlope: -0.0052267187
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7283174
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _VFXCastLifetime: 1
+  _HolePrefab: {fileID: 5249093020590203804, guid: 12c624704b5ac644ba05d3b6dd50efb8, type: 3}
+  _Catch2bonus: 2
+  _Catch3bonus: 5
+  _Catch4bonus: 10

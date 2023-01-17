@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266556df2ea9cff4a90174eae5f57a4f, type: 3}
+  m_Name: DAT_Tutorial
+  m_EditorClassIdentifier: 
+  RecipePool:
+  - {fileID: 11400000, guid: 48afaf5721e4e1247a2afcd7b371355f, type: 2}
+  - {fileID: 11400000, guid: eeb9bbbef3510c74399924b95cfb12c5, type: 2}
+  AutoGenerateOrders: 0
+  OrderCount: -1
+  TimeDifficulties:
+    m_keys: 000000000100000002000000
+    m_values:
+    - 60
+    - 70
+    - 85
+  WindowCooldown: 1
+  OrderSpawnRange:
+    Min: 0
+    Max: 0
+  CurrencyEarned: 39560
+  CatchBonus: 5800
+  LevelSeed: 0
+  DoCountdown: 0
+  Icon: {fileID: 21300000, guid: 8d21effe68da68b49bcc6f332553a955, type: 3}
+  LevelName: Tutorial (Updated)
+  PoissonDisc:
+    _Cells: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff29000000ffffffffffffffffffffffffffffffffffffffff0a00000009000000ffffffff1a000000ffffffffffffffff44000000ffffffffffffffffffffffffffffffffffffffff71000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5a000000ffffffffffffffff16000000ffffffff08000000ffffffffffffffffffffffffffffffffffffffffffffffff2d000000ffffffffffffffff45000000ffffffff70000000ffffffffffffffff82000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff41000000ffffffff4000000028000000ffffffffffffffffffffffffffffffffffffffffffffffff01000000ffffffff0b000000ffffffff19000000ffffffff2c000000ffffffff43000000ffffffff5c000000ffffffff6a000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff27000000ffffffffffffffff1500000005000000ffffffff03000000ffffffff04000000ffffffff0c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff58000000ffffffffffffffffffffffffffffffffffffffff14000000ffffffffffffffffffffffff00000000ffffffffffffffffffffffff12000000ffffffff1b000000ffffffff2e00000055000000ffffffff54000000ffffffff6b000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3f000000ffffffff3e000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff13000000ffffffffffffffff2400000025000000ffffffffffffffff3b000000ffffffffffffffff69000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff85000000ffffffff56000000ffffffff3c000000ffffffff26000000ffffffffffffffffffffffff06000000ffffffffffffffff07000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff53000000ffffffffffffffff7d000000ffffffffffffffff8f000000ffffffffa2000000ffffffffffffffffab000000ffffffffffffffffffffffff840000006c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff17000000ffffffff10000000ffffffff02000000ffffffffffffffff11000000ffffffffffffffffffffffff3a000000ffffffff50000000ffffffffffffffff65000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffaa000000ffffffff9500000094000000ffffffffffffffffffffffffffffffffffffffff57000000ffffffff3d000000ffffffffffffffff2a00000018000000ffffffffffffffffffffffffffffffffffffffff0d000000ffffffffffffffff23000000ffffffffffffffffffffffffffffffff51000000ffffffff66000000ffffffff7e000000ffffffff90000000ffffffffa1000000ffffffffffffffffffffffffffffffffffffffff83000000ffffffff6e000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0f0000000e000000ffffffffffffffffffffffff1d000000ffffffffffffffff39000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff80000000ffffffff93000000ffffffffffffffffffffffffa500000096000000ffffffffffffffffffffffffffffffffffffffff6d000000ffffffff5900000042000000ffffffff2b000000ffffffffffffffffffffffff22000000ffffffffffffffffffffffffffffffff1e000000ffffffffffffffff32000000ffffffffffffffff4b00000052000000ffffffffffffffff670000007f000000ffffffffffffffffffffffffffffffffffffffffffffffff9f000000ffffffff8e000000ffffffff860000007b000000ffffffffffffffff5b000000ffffffff6f000000ffffffff38000000ffffffffffffffff21000000ffffffff1f000000ffffffff1c000000ffffffffffffffff31000000ffffffffffffffff4c000000ffffffffffffffffffffffff60000000ffffffff76000000ffffffffffffffff91000000ffffffffa4000000ffffffffffffffffffffffffffffffff8d000000ffffffff7c000000ffffffffffffffff64000000ffffffffffffffffffffffffffffffffffffffffffffffff35000000ffffffff20000000ffffffffffffffffffffffffffffffff30000000ffffffff33000000ffffffffffffffffffffffffffffffff68000000ffffffffffffffffffffffffffffffff92000000ffffffffffffffffa3000000ffffffffffffffffa0000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff4f000000ffffffff4d000000ffffffffffffffffffffffffffffffffffffffff340000002f000000ffffffffffffffffffffffff49000000ffffffff4a000000ffffffff5f000000ffffffffffffffff7400000081000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7a000000ffffffff63000000ffffffffffffffffffffffff4e000000ffffffffffffffff37000000ffffffff36000000ffffffffffffffffffffffffffffffff48000000ffffffffffffffffffffffff5d000000ffffffffffffffffffffffffffffffffffffffff89000000ffffffffffffffff9c000000a8000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff79000000ffffffff62000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff46000000ffffffff47000000ffffffffffffffffffffffff5e000000ffffffffffffffff73000000ffffffff75000000ffffffff8a000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff78000000ffffffff61000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff72000000ffffffffffffffffffffffff8b000000ffffffffffffffff9b000000ffffffffa7000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff77000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff88000000ffffffffffffffffffffffff9d000000ffffffffa9000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8c000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff87000000ffffffffffffffffffffffff9a000000ffffffffa6000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff9e000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff97000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99000000ffffffff98000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    _CellCount: {x: 39, y: 39}
+    _Points:
+    - {x: -3.076831, y: -0.4415145}
+    - {x: -2.3726377, y: -1.9519205}
+    - {x: -2.649056, y: 1.2947592}
+    - {x: -3.261538, y: -1.4396921}
+    - {x: -1.6846162, y: -1.0987395}
+    - {x: -4.746937, y: -1.083919}
+    - {x: -4.3714643, y: 0.71895206}
+    - {x: -2.073451, y: 0.3702622}
+    - {x: -3.7882962, y: -2.839615}
+    - {x: -1.2077214, y: -3.3657398}
+    - {x: -2.2233202, y: -3.2207131}
+    - {x: -0.5955651, y: -2.4274163}
+    - {x: -0.6126162, y: -1.316297}
+    - {x: -1.64598, y: 2.1952527}
+    - {x: -2.5265539, y: 3.0066853}
+    - {x: -3.7614462, y: 2.7848718}
+    - {x: -4.1820197, y: 1.7072661}
+    - {x: -0.7614665, y: 1.3064567}
+    - {x: 0.176355, y: -0.5834207}
+    - {x: -0.9812091, y: -0.081709385}
+    - {x: -5.891558, y: -0.46892518}
+    - {x: -5.768691, y: -1.6166734}
+    - {x: -5.167779, y: -2.5475268}
+    - {x: -5.774264, y: 1.0814884}
+    - {x: -5.3137403, y: 2.289805}
+    - {x: 0.44793725, y: -2.0594308}
+    - {x: 0.30643344, y: -3.3370996}
+    - {x: 1.1630079, y: -1.0131731}
+    - {x: -1.9762509, y: 3.898641}
+    - {x: 0.021100163, y: 2.9751744}
+    - {x: -0.8653273, y: 3.588542}
+    - {x: -3.148221, y: 4.246496}
+    - {x: -4.08176, y: 4.6938825}
+    - {x: -5.1152134, y: 4.193961}
+    - {x: -4.2634053, y: 3.666215}
+    - {x: 0.98776686, y: 1.9156516}
+    - {x: 0.775478, y: 0.2352289}
+    - {x: 1.7732195, y: 0.07806355}
+    - {x: -7.0885477, y: 0.86560446}
+    - {x: -7.6123013, y: -1.139001}
+    - {x: -6.975549, y: -1.9700413}
+    - {x: -6.099783, y: -3.2656538}
+    - {x: -6.61639, y: 1.8465822}
+    - {x: -6.789776, y: 3.3186984}
+    - {x: 2.1409883, y: -1.9345614}
+    - {x: 1.3389559, y: -2.7741756}
+    - {x: 2.6490765, y: -1.0154116}
+    - {x: -1.7585232, y: 5.7089877}
+    - {x: -0.90640163, y: 5.1801853}
+    - {x: -0.05642438, y: 4.1936817}
+    - {x: 1.632135, y: 3.7249424}
+    - {x: 0.7825939, y: 4.753393}
+    - {x: -2.929016, y: 5.5995035}
+    - {x: -5.81055, y: 5.1899}
+    - {x: -3.7760787, y: 6.3398623}
+    - {x: -5.2042484, y: 6.084804}
+    - {x: -7.0422645, y: 4.332843}
+    - {x: 2.5404296, y: 2.8589158}
+    - {x: 2.288659, y: 1.5701723}
+    - {x: 3.4968271, y: 0.18443944}
+    - {x: -8.667405, y: 0.70832753}
+    - {x: -8.324032, y: 2.1563501}
+    - {x: -7.848729, y: 0.10655302}
+    - {x: -8.921474, y: -0.3014664}
+    - {x: -7.9701443, y: -2.3106194}
+    - {x: -9.435769, y: -1.8404057}
+    - {x: -8.200184, y: 3.4635568}
+    - {x: 3.5756128, y: -1.8299919}
+    - {x: 2.4870954, y: -3.2335906}
+    - {x: 3.7234416, y: -2.9601054}
+    - {x: -2.7151675, y: 7.216099}
+    - {x: -1.6649513, y: 6.768979}
+    - {x: -0.18518424, y: 6.706482}
+    - {x: 0.7346586, y: 6.0064187}
+    - {x: 1.9443666, y: 5.443764}
+    - {x: 3.474124, y: 3.7957108}
+    - {x: 2.5484607, y: 4.3984227}
+    - {x: -7.221491, y: 5.699704}
+    - {x: -6.7063, y: 6.699726}
+    - {x: -8.593561, y: 5.322189}
+    - {x: 3.4621875, y: 1.3930022}
+    - {x: 4.1294255, y: 2.3063474}
+    - {x: 4.420665, y: 3.3178499}
+    - {x: 4.502225, y: 0.67226815}
+    - {x: 4.884515, y: -1.0042741}
+    - {x: 3.8686826, y: -0.782668}
+    - {x: -10.0563965, y: 0.5804425}
+    - {x: -10.058874, y: 2.0013194}
+    - {x: -9.917923, y: -0.70348597}
+    - {x: -9.200084, y: 3.5059938}
+    - {x: -7.1669936, y: -2.9581697}
+    - {x: -9.513141, y: 4.491278}
+    - {x: 5.014209, y: -2.028776}
+    - {x: 2.56427, y: 6.5448723}
+    - {x: 1.241211, y: 6.956993}
+    - {x: 3.7190495, y: 5.5457487}
+    - {x: 5.1078176, y: 4.079286}
+    - {x: -7.456147, y: 7.617542}
+    - {x: -8.59462, y: 7.0209055}
+    - {x: -9.8706, y: 6.0204396}
+    - {x: -10.538956, y: 5.125718}
+    - {x: 5.3975115, y: 1.1945895}
+    - {x: 5.7614713, y: 2.3205688}
+    - {x: 6.258814, y: 3.2232943}
+    - {x: 4.677019, y: 5.0548987}
+    - {x: 5.7317796, y: -0.16011935}
+    - {x: 6.1224527, y: -2.0009363}
+    - {x: 6.498582, y: -0.8482723}
+    - {x: -11.597082, y: 1.7289126}
+    - {x: -10.812489, y: 3.6364717}
+    - {x: -11.782019, y: 2.906856}
+    - {x: -8.044115, y: 4.464193}
+    - {x: 5.1804295, y: -3.0168223}
+    - {x: 6.166724, y: -3.2071545}
+    - {x: 2.8235922, y: 8.03453}
+    - {x: 3.8084657, y: 6.7517962}
+    - {x: 5.5622993, y: 5.9453583}
+    - {x: 4.820496, y: 7.0211225}
+    - {x: 6.3151593, y: 4.290663}
+    - {x: -8.075893, y: 8.503584}
+    - {x: -9.218693, y: 7.980223}
+    - {x: -10.146385, y: 7.3375974}
+    - {x: -11.32418, y: 6.3339887}
+    - {x: -11.85134, y: 4.0902195}
+    - {x: -12.48604, y: 5.2521195}
+    - {x: 6.7653008, y: 0.4058525}
+    - {x: 6.991797, y: 2.0276554}
+    - {x: 7.26189, y: 3.853517}
+    - {x: 7.745294, y: 2.859737}
+    - {x: 6.4884806, y: 5.4816217}
+    - {x: 7.109047, y: -2.5412169}
+    - {x: -13.035267, y: 2.883613}
+    - {x: -12.778601, y: 1.4370522}
+    - {x: -11.088109, y: 0.8619022}
+    - {x: -12.895001, y: 4.239945}
+    - {x: 3.3307848, y: 9.513536}
+    - {x: 4.265115, y: 8.485601}
+    - {x: 7.46854, y: 6.2551155}
+    - {x: 6.635836, y: 7.1713715}
+    - {x: 5.6022305, y: 7.8802857}
+    - {x: -8.947435, y: 9.010653}
+    - {x: -14.125945, y: 5.258495}
+    - {x: -14.001709, y: 4.2429566}
+    - {x: 8.368275, y: 0.9139859}
+    - {x: 8.696022, y: 2.2002594}
+    - {x: 8.841444, y: 3.935444}
+    - {x: 7.828072, y: 4.9623275}
+    - {x: 9.548557, y: 2.8940039}
+    - {x: -13.803579, y: 2.152063}
+    - {x: -14.843226, y: 2.2263057}
+    - {x: -14.525963, y: 3.3733845}
+    - {x: 5.108413, y: 10.03483}
+    - {x: 3.9759336, y: 10.943191}
+    - {x: 2.2615976, y: 10.915157}
+    - {x: 6.1036987, y: 9.070385}
+    - {x: 8.014559, y: 7.471942}
+    - {x: 9.203961, y: 6.082174}
+    - {x: 7.037873, y: 8.305514}
+    - {x: -8.147918, y: 10.157495}
+    - {x: -15.3825, y: 4.4509187}
+    - {x: -15.772827, y: 5.669124}
+    - {x: 9.998594, y: 1.8650345}
+    - {x: 10.257001, y: 0.86500216}
+    - {x: 9.961579, y: 5.2464957}
+    - {x: 10.042782, y: 4.000639}
+    - {x: -15.7947, y: 3.2774367}
+    - {x: 7.7566657, y: 9.316501}
+    - {x: 9.45379, y: 7.65802}
+    - {x: 10.148216, y: 6.4781575}
+    - {x: 8.6495075, y: 8.566723}
+    - {x: -15.891534, y: 2.1913128}
+    - {x: -15.205442, y: 1.2439265}
+    _Origin: {x: -3.45, y: 0}
+    _DomainSize: {x: 27.57, y: 27.57}
+    _DomainExtents: {x: 13.785, y: 13.785}
+    _Spacing: 1
+    _SqrSpacing: 1
+    _CellSize: 0.70710677

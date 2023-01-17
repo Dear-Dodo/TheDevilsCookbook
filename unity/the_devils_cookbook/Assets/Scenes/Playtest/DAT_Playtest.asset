@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266556df2ea9cff4a90174eae5f57a4f, type: 3}
+  m_Name: DAT_Playtest
+  m_EditorClassIdentifier: 
+  RecipePool:
+  - {fileID: 11400000, guid: eeb9bbbef3510c74399924b95cfb12c5, type: 2}
+  - {fileID: 11400000, guid: 9993a81c4d956e04f8f2ebad56bc49eb, type: 2}
+  - {fileID: 11400000, guid: 260f585d948a62a4fbbdcf18dfff56d4, type: 2}
+  AutoGenerateOrders: 1
+  OrderCount: 15
+  TimeDifficulties:
+    m_keys: 000000000100000002000000
+    m_values:
+    - 50
+    - 50
+    - 50
+  WindowCooldown: 5
+  OrderSpawnRange:
+    Min: 10
+    Max: 15
+  CurrencyEarned: 0
+  CatchBonus: 0
+  LevelSeed: 69420
+  Icon: {fileID: 21300000, guid: eb3025e2b0e1686468367eacd379dedd, type: 3}
+  LevelName: Playtest

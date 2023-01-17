@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d7c6bb997972ffc896150ddddc0c87, type: 3}
+  m_Name: Silence 3
+  m_EditorClassIdentifier: 
+  DisplayName: Ephemerality
+  Description: Creates a radius that turns ingredients within it spectral, preventing
+    them from attacking the caster.
+  BaseCooldown: 3
+  BaseMaxCharges: 1
+  _SpellIcon: {fileID: 21300000, guid: 4e56ef1510d24634288dbd84b5230d03, type: 3}
+  SelectorPrefab: {fileID: 5498708315996668424, guid: cf0e5609563b6e3468da345c82d9113f, type: 3}
+  SelectorGraphics:
+    DecalColour: {r: 0.4862745, g: 0.5803922, b: 0.94509804, a: 0.48235294}
+    InvalidDecalColor: {r: 0.29411766, g: 0.29411766, b: 0.29411766, a: 0.5019608}
+    Decal: {fileID: 0}
+    VFX: {fileID: 8926484042661614526, guid: a543e80f9c7f88b458cf49b0c20aae53, type: 3}
+  CastGraphics:
+    DecalColour: {r: 0, g: 0, b: 0, a: 0}
+    InvalidDecalColor: {r: 0, g: 0, b: 0, a: 0}
+    Decal: {fileID: 0}
+    VFX: {fileID: 8926484042661614526, guid: a1dc941175010f74ebb52acdc81da1c7, type: 3}
+  CastSound:
+    Guid:
+      Data1: -1257075526
+      Data2: 1237684767
+      Data3: 2140441226
+      Data4: 710721802
+    Path: event:/Effects/Spell/Silence
+  _SilencedEffect: {fileID: 8926484042661614526, guid: fbcd4834ef56b4d47a02780a37c9390a, type: 3}
+  _BaseCastRange: 4.5
+  _Radius: 4
+  _SilenceDuration: 5

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Patron_head
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Char:Worm_rescale
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:eye_controller_box
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:eye_controller_box/Char:eye_Blink_ctrl1
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_lowerJaw_ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_lowerJaw_ctrl/Char:worm_Jaw_ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_mouth_ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_tongue_ctrl_1
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_tongue_ctrl_1/Char:worm_tongue_ctrl_2
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_tongue_ctrl_1/Char:worm_tongue_ctrl_2/Char:worm_tongue_ctrl_3
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_tongue_ctrl_1/Char:worm_tongue_ctrl_2/Char:worm_tongue_ctrl_3/Char:worm_tongue_ctrl_4
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_upperJaw
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_upperJaw/Char:Eye_aim_crtl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_head_ctrl/Char:worm_upperJaw/Char:worm_nose_ctrl
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7/Char:worm_tail_ctrl_8
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7/Char:worm_tail_ctrl_8/Char:worm_tail_ctrl_9
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7/Char:worm_tail_ctrl_8/Char:worm_tail_ctrl_9/Char:worm_tail_ctrl_10
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7/Char:worm_tail_ctrl_8/Char:worm_tail_ctrl_9/Char:worm_tail_ctrl_10/Char:worm_tail_ctrl_11
+    m_Weight: 0
+  - m_Path: Char:Worm_rescale/Char:WORM_MasterCtrl/Char:Worm_Pos_Ctrl/Char:worm_tail_ctrl_1/Char:worm_tail_ctrl_2/Char:worm_tail_ctrl_3/Char:worm_tail_ctrl_4/Char:worm_tail_ctrl_5/Char:worm_tail_ctrl_6/Char:worm_tail_ctrl_7/Char:worm_tail_ctrl_8/Char:worm_tail_ctrl_9/Char:worm_tail_ctrl_10/Char:worm_tail_ctrl_11/Char:worm_tail_ctrl_12
+    m_Weight: 0
+  - m_Path: Char:wormMesh
+    m_Weight: 0
+  - m_Path: Char:wormMesh/Char:WormBody
+    m_Weight: 0
+  - m_Path: Char:wormMesh/Char:WormBody/Char:eye
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1
+    m_Weight: 1
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_lowerJaw_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_lowerJaw_jt_1/Char:WORM_lowerJaw_jt_2
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_lowerJaw_jt_1/Char:WORM_lowerJaw_jt_2/Char:WORM_lowerJaw_jt_nub
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_Tongue_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_Tongue_jt_1/Char:WORM_Tongue_jt_2
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_Tongue_jt_1/Char:WORM_Tongue_jt_2/Char:WORM_Tongue_jt_3
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_Tongue_jt_1/Char:WORM_Tongue_jt_2/Char:WORM_Tongue_jt_3/Char:WORM_Tongue_jt_4
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_Tongue_jt_1/Char:WORM_Tongue_jt_2/Char:WORM_Tongue_jt_3/Char:WORM_Tongue_jt_4/Char:WORM_Tongue_jt_5
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_upperJaw_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_upperJaw_jt_1/Char:WORM_eye_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_upperJaw_jt_1/Char:WORM_eye_jt_1/Char:WORM_eye_jt_nub
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_upperJaw_jt_1/Char:WORM_upperJaw_jt_2
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_HEAD_jt_1/Char:WORM_upperJaw_jt_1/Char:WORM_upperJaw_jt_2/Char:WORM_upperJaw_jt_nub
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8/Char:WORM_TAIL_jt_9
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8/Char:WORM_TAIL_jt_9/Char:WORM_TAIL_jt_10
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8/Char:WORM_TAIL_jt_9/Char:WORM_TAIL_jt_10/Char:WORM_TAIL_jt_11
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8/Char:WORM_TAIL_jt_9/Char:WORM_TAIL_jt_10/Char:WORM_TAIL_jt_11/Char:WORM_TAIL_jt_12
+    m_Weight: 0
+  - m_Path: Char:WormSkeleton/Char:WORM_root_jt/Char:WORM_root_jt_1/Char:WORM_TAIL_jt_1/Char:WORM_TAIL_jt_2/Char:WORM_TAIL_jt_3/Char:WORM_TAIL_jt_4/Char:WORM_TAIL_jt_5/Char:WORM_TAIL_jt_6/Char:WORM_TAIL_jt_7/Char:WORM_TAIL_jt_8/Char:WORM_TAIL_jt_9/Char:WORM_TAIL_jt_10/Char:WORM_TAIL_jt_11/Char:WORM_TAIL_jt_12/Char:WORM_TAIL_jt_13
+    m_Weight: 0

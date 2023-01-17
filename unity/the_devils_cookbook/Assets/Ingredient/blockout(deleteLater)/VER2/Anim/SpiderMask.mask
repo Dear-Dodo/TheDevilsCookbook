@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpiderMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: spider:Bones
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_eye_Point
+    m_Weight: 0
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_eye_Point/spider:Spider_eye_jt_01
+    m_Weight: 0
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_eye_Point/spider:Spider_eye_jt_01/spider:Spider_eye_nub
+    m_Weight: 0
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_backLeg_1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_backLeg_1/spider:Spider_L_backLeg_2
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_backLeg_1/spider:Spider_L_backLeg_2/spider:Spider_L_backLeg_3
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_backLeg_1/spider:Spider_L_backLeg_2/spider:Spider_L_backLeg_3/spider:Spider_L_backLeg_4
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_backLeg_1/spider:Spider_L_backLeg_2/spider:Spider_L_backLeg_3/spider:Spider_L_backLeg_4/spider:Spider_L_backLeg_5
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_frontLeg_1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_frontLeg_1/spider:Spider_L_frontLeg_2
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_frontLeg_1/spider:Spider_L_frontLeg_2/spider:Spider_L_frontLeg_3
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_frontLeg_1/spider:Spider_L_frontLeg_2/spider:Spider_L_frontLeg_3/spider:Spider_L_frontLeg_4
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_L_frontLeg_1/spider:Spider_L_frontLeg_2/spider:Spider_L_frontLeg_3/spider:Spider_L_frontLeg_4/spider:Spider_L_frontLeg_5
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_BackLeg_1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_BackLeg_1/spider:Spider_R_BackLeg_2
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_BackLeg_1/spider:Spider_R_BackLeg_2/spider:Spider_R_BackLeg_3
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_BackLeg_1/spider:Spider_R_BackLeg_2/spider:Spider_R_BackLeg_3/spider:Spider_R_BackLeg_4
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_BackLeg_1/spider:Spider_R_BackLeg_2/spider:Spider_R_BackLeg_3/spider:Spider_R_BackLeg_4/spider:Spider_R_BackLeg_5
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_frontLeg_1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_frontLeg_1/spider:Spider_R_frontLeg_2
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_frontLeg_1/spider:Spider_R_frontLeg_2/spider:Spider_R_frontLeg_3
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_frontLeg_1/spider:Spider_R_frontLeg_2/spider:Spider_R_frontLeg_3/spider:Spider_R_frontLeg_4
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:Spider_R_frontLeg_1/spider:Spider_R_frontLeg_2/spider:Spider_R_frontLeg_3/spider:Spider_R_frontLeg_4/spider:Spider_R_frontLeg_5
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1/spider:Spider_bindObjBody_1
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1/spider:Spider_bindObjBody_1/spider:Spider_bindObjBody_2
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1/spider:Spider_bindObjBody_1/spider:Spider_bindObjBody_2/spider:Spider_bindObjBody_3
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1/spider:Spider_bindObjBody_1/spider:Spider_bindObjBody_2/spider:Spider_bindObjBody_3/spider:Spider_bindObjBody_4
+    m_Weight: 1
+  - m_Path: spider:Bones/spider:SpiderBones/spider:transform1/spider:Spider_bindObjBody_1/spider:Spider_bindObjBody_2/spider:Spider_bindObjBody_3/spider:Spider_bindObjBody_4/spider:Spider_bindObjBody_5
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_body_ctrl_0
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_body_ctrl_0/spider:Spider_body_ctrl_1
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_body_ctrl_0/spider:Spider_body_ctrl_1/spider:Spider_body_ctrl_2
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_body_ctrl_0/spider:Spider_body_ctrl_1/spider:Spider_body_ctrl_2/spider:Spider_body_ctrl_3
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_EyePositionAimDONOTANIMATEPLEASE
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:MainController/spider:Spider_EyePositionAimDONOTANIMATEPLEASE/spider:Spider_eyeAim_ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_Backfoot_ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_Backfoot_ctrl/spider:Spider_L_backFoot_Ik_1
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_Backfoot_ctrl/spider:Spider_L_backFoot_Ik_2
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_frontFoot_ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_frontFoot_ctrl/spider:Spider_L_frontFoot_1
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_L_frontFoot_ctrl/spider:Spider_L_frontFoot_2
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_Backfoot_ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_Backfoot_ctrl/spider:Spider_R_backFoot_Ik_1
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_Backfoot_ctrl/spider:Spider_R_backFoot_Ik_2
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_frontFoot_ctrl
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_frontFoot_ctrl/spider:Spider_R_frontFoot_Ik_2
+    m_Weight: 1
+  - m_Path: spider:spider_Scale_Ctrl/spider:SpiderContollers/spider:Spider_R_frontFoot_ctrl/spider:Spider_R_frontFoot_Ik_3
+    m_Weight: 1
+  - m_Path: spider:SpiderMeshLegs
+    m_Weight: 1
+  - m_Path: spider:SpiderMeshLegs/spider:Fruit_Top_low
+    m_Weight: 1
+  - m_Path: spider:SpiderMeshLegs/spider:Spider_Legs
+    m_Weight: 1

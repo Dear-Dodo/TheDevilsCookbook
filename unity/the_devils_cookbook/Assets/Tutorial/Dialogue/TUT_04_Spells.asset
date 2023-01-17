@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_04_Spells
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: 'Knew I could count on you. '
+    Portrait: {fileID: 21300000, guid: 0507ce22e94f8d1438758a1103d8a44d, type: 3}
+  - CharacterName: Baaphie
+    Text: "But I think you might want a little more practice before we really get
+      down to business. Why don\u2019t you see how your other spells help out with
+      catching these little guys? \r\n"
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: Baaphie
+    Text: "Only your <b>catching spell\u2019s</b> going to get the job done on finishing
+      them off, but, as they say, every little bit helps. Go ahead and summon some
+      more."
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: 
+    Text: Press [KEYBIND] to select the wall spell. Place two points with L-Click
+      to <b>block the ingredients from passing through.</b>
+    Portrait: {fileID: 0}
+  - CharacterName: 
+    Text: "Press [KEYBIND] to activate your centre pull spell. It will <b>pull ingredients
+      towards you</b> if they\u2019re close enough."
+    Portrait: {fileID: 0}
+  - CharacterName: 
+    Text: "Press [KEYBIND] to select your push spell, then click to cast. It will
+      <b>push ingredients away from you</b> if they\u2019re in range."
+    Portrait: {fileID: 0}
+  - CharacterName: 
+    Text: 'If you want to know what a spell does you can hover over it for a tooltip.
+      Use all your spells to help capture the ingredients. '
+    Portrait: {fileID: 0}

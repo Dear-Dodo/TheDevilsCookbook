@@ -1,0 +1,8 @@
+the_devils_cookbook/.idea
+the_devils_cookbook/build
+the_devils_cookbook/Library
+the_devils_cookbook/Logs
+the_devils_cookbook/obj
+the_devils_cookbook/UserSettings
+the_devils_cookbook/*.csproj
+the_devils_cookbook/*.DotSettings.user

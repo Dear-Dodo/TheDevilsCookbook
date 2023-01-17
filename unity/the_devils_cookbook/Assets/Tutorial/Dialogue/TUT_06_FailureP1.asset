@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_06_FailureP1
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: "Aren\u2019t you a star? I reckon you\u2019re ready to learn about serving
+      patrons. Patrons will order off the <b>set menu</b> we\u2019ve got. Once they
+      show up, you\u2019ll want to serve them quick, or - well. "
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: Baaphie
+    Text: "You\u2019ll find out."
+    Portrait: {fileID: 21300000, guid: 3b6cd7aae4d33674faa4852273982448, type: 3}
+  - CharacterName: Baaphie
+    Text: Here comes one of those suckers now! How about you -
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}

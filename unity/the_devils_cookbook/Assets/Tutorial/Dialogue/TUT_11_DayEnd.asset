@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_11_DayEnd
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: Look at you! What a star.
+    Portrait: {fileID: 21300000, guid: 0507ce22e94f8d1438758a1103d8a44d, type: 3}
+  - CharacterName: Baaphie
+    Text: "You\u2019re all done for today. You\u2019ll get paid for all your hard
+      work, don\u2019t worry. I\u2019m not that heartless."
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: Baaphie
+    Text: "Head on over to the shop and I\u2019ll show you how you can spend what
+      you\u2019ve got."
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}

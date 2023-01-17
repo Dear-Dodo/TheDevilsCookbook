@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_01_Movement
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: Welcome to hell, Maggie! On account of that contract you just signed, I'm
+      delighted to offer you a position at one of my prestigious restaurant locations.
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: Baaphie
+    Text: And what kind of boss would I be if I didn't give you a little on-the-job
+      training? How about you head over into the other room, and I can show you the
+      ropes.
+    Portrait: {fileID: 21300000, guid: 0507ce22e94f8d1438758a1103d8a44d, type: 3}
+  - CharacterName: 
+    Text: Use WASD to move and SHIFT to dash. You can dash through certain objects
+      and over small gaps. Your dash recharges but can only hold <b>two charges at
+      a time,</b> so use them wisely.
+    Portrait: {fileID: 0}

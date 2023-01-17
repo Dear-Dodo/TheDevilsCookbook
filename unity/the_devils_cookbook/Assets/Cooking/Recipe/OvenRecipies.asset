@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d490ba964d0415a41b68477538215edc, type: 3}
+  m_Name: OvenRecipies
+  m_EditorClassIdentifier: 
+  Recipes:
+  - {fileID: 11400000, guid: 3c85af06abf781b40a376d4f3b3ff50f, type: 2}
+  - {fileID: 11400000, guid: eeb9bbbef3510c74399924b95cfb12c5, type: 2}
+  - {fileID: 11400000, guid: 9993a81c4d956e04f8f2ebad56bc49eb, type: 2}
+  - {fileID: 11400000, guid: 260f585d948a62a4fbbdcf18dfff56d4, type: 2}
+  - {fileID: 11400000, guid: 48afaf5721e4e1247a2afcd7b371355f, type: 2}
+  typeIndex: 0

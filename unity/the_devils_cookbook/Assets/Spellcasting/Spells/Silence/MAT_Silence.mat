@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Silence
+  m_Shader: {fileID: -6465566751694194690, guid: cbb29b4ab316fef429267dc1109ea4cb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CameraOpaqueTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrabPassTransparent:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_54e7986136714c34be76392478627db7: 0.1
+    - Vector1_6af2ad5aadf340f68b7e3e1e0f7d7772: 0.3
+    m_Colors:
+    - Vector2_3b27b0ee808c469c878b60623c1cf6fe: {r: 0.01, g: 0, b: 0, a: 0}
+    - Vector2_8297104392ca498482460b8e2070247a: {r: -0.005, g: -0.00866, b: 0, a: 0}
+    - Vector2_c3863fb6beb54b87a9d02b006ff2ddc0: {r: -0.005, g: 0.00866, b: 0, a: 0}
+  m_BuildTextureStacks: []

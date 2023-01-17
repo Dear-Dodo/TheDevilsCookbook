@@ -1,0 +1,35 @@
+Welcome to The Devil's Cookbook's <color=#00b3ff><b>b0.2</b></color> play test!
+
+b0.2 is the second version of beta, and is intended for internal testing. This is not a development build, and errors will be hidden.
+If you encounter an error, press ` to open the debug console and read it, it will also be in the log file.
+<b>Known Issues</b>
+Levels:
+    - Level 1 & 2 lack functional minimaps
+	- Tutorial does not work (its being replaced)
+
+Spells:
+    - Trap spell cast validity not clear (Casting out of range does nothing)
+    - Spellcasting is possible while in the radial menu
+    - Death does not stop spell cast selection
+
+Animation:
+    - Damage from patron's biting is not synced properly with the animation
+    - Patrons may disappear before finishing their animation after being served
+
+UI:
+    - Radial menu background can get stuck onscreen if radial menu is closed too quickly after opening
+    - The tutorial prompts are irritating and easy to forget (It's on the list!)
+
+Environment:
+    - Some internal furniture can be walked through (Hopefully you can't get out of the level!)
+
+
+<b>Feedback</b>
+Once you've completed testing, please provide feedback through <link="https://forms.gle/g5NuKxLy2QfsCFeD8">the feedback form</link>.
+You're also invited to join us in <link="https://discord.gg/zxnnhuENSm">The Devil's Cookbook Discord</link> if you have any questions, suggestions, or otherwise want to keep up with development!
+
+If the above hyperlinks are not working, you can find the raw URLs in StreamingAssets/README in the game's directory.
+
+<b>Note for previous testers:</b>
+If you provided feedback and found it has not been implemented in this build, it's likely still on the to-do list.
+Many suggested quality of life features are planned for implementation in future.

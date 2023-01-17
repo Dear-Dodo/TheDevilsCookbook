@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e57562a73982f4a859f60a07e0c102, type: 3}
+  m_Name: Oof
+  m_EditorClassIdentifier: 
+  InventorySize:
+    Name: 
+    UpgradeSprite: {fileID: 0}
+    CurrentTier: 0
+    Tiers: []
+  Speed:
+    Name: 
+    UpgradeSprite: {fileID: 0}
+    CurrentTier: 0
+    Tiers: []
+  ActiveSpells:
+  - {fileID: 11400000, guid: 40b4b95576a0d9aeaaa1686ed3a22d49, type: 2}
+  - {fileID: 11400000, guid: 1f9d6565ac074760184f3091c6e321a7, type: 2}
+  - {fileID: 11400000, guid: 4fe7d0fbbcfce329ba3a347466904409, type: 2}
+  - {fileID: 11400000, guid: 2fa24b1c8d6ff7ae08936e483ce4e939, type: 2}
+  _SpellUpgrades:
+    m_keys:
+    - {fileID: 11400000, guid: 40b4b95576a0d9aeaaa1686ed3a22d49, type: 2}
+    - {fileID: 11400000, guid: 4fe7d0fbbcfce329ba3a347466904409, type: 2}
+    - {fileID: 11400000, guid: 1f9d6565ac074760184f3091c6e321a7, type: 2}
+    - {fileID: 11400000, guid: 2fa24b1c8d6ff7ae08936e483ce4e939, type: 2}
+    - {fileID: 11400000, guid: 78a8bd99d7a94fb44b1fb6428e5546b1, type: 2}
+    - {fileID: 11400000, guid: 3208bf449671b103994994fb3ea4013a, type: 2}
+    - {fileID: 11400000, guid: 0854c4970bdba6c088e5530f42343648, type: 2}
+    m_values:
+    - Name: Grab Spell
+      UpgradeSprite: {fileID: 21300000, guid: d8903ab04bdf72847a1c7ca48c079a8c, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 40b4b95576a0d9aeaaa1686ed3a22d49, type: 2}
+        Cost: 0
+        Description: The Basic Grab Spell,<br> No Upgrades Needed
+    - Name: Pull Spell
+      UpgradeSprite: {fileID: 21300000, guid: df168104e3269444fbf13fa1b05eacb1, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 4fe7d0fbbcfce329ba3a347466904409, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Pulls Ingredients Towards You
+      - Item: {fileID: 11400000, guid: 32b019fe90d46fb4099b2fc8dd83ab37, type: 2}
+        Cost: 60
+        Description: +1 Radius
+      - Item: {fileID: 11400000, guid: b9e9e3681930f3e4fa9fed8f397979d7, type: 2}
+        Cost: 120
+        Description: +2 Radius
+    - Name: Wall Spell
+      UpgradeSprite: {fileID: 21300000, guid: 6625df5eb7a59b042a5a8e1fbfd00578, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 1f9d6565ac074760184f3091c6e321a7, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Place A Wall To Contain Ingredients
+      - Item: {fileID: 11400000, guid: 25e88b513f667b5479cf3f8921f8c6a6, type: 2}
+        Cost: 90
+        Description: +1 Distance
+      - Item: {fileID: 11400000, guid: a746c6edb084f0140b3f92b2e79f919c, type: 2}
+        Cost: 180
+        Description: +2 Distance
+    - Name: Push Spell
+      UpgradeSprite: {fileID: 21300000, guid: a99c377c2afa35e48bef23d4f406b16e, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 2fa24b1c8d6ff7ae08936e483ce4e939, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Pushes Ingredients Away
+      - Item: {fileID: 11400000, guid: 43fd49ea58c54da47852aaabdc8e28c6, type: 2}
+        Cost: 60
+        Description: +5 Degree Arc\n+1 Range
+      - Item: {fileID: 11400000, guid: 03f965135c701eb428112e91a5547d05, type: 2}
+        Cost: 120
+        Description: +10 Degree Arc\n+2 Range
+    - Name: Slow Spell
+      UpgradeSprite: {fileID: 21300000, guid: 67ed05fb4150d374eb0186e07400ff86, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 78a8bd99d7a94fb44b1fb6428e5546b1, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Slows Ingredients In An Area
+      - Item: {fileID: 11400000, guid: b689bde810a3c6241b883d585dd06567, type: 2}
+        Cost: 70
+        Description: +0.5 Radius
+      - Item: {fileID: 11400000, guid: d498bd8cd7db6fe40a94e819bfd8b055, type: 2}
+        Cost: 150
+        Description: +1 Radius
+    - Name: Stun
+      UpgradeSprite: {fileID: 21300000, guid: 419edadd29f43ae4ca3f24a0dc4d814c, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 3208bf449671b103994994fb3ea4013a, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Stuns Ingredients In An Area
+      - Item: {fileID: 11400000, guid: 7e3326e0233dec849a1e79847e643b57, type: 2}
+        Cost: 90
+        Description: +1 Range, +0.5 Trigger Radius
+      - Item: {fileID: 11400000, guid: 5899c1fd5b49d64418413980766a1fa8, type: 2}
+        Cost: 180
+        Description: +2 Range, +1Trigger Radius
+    - Name: Silence
+      UpgradeSprite: {fileID: 21300000, guid: 4e56ef1510d24634288dbd84b5230d03, type: 3}
+      CurrentTier: 0
+      Tiers:
+      - Item: {fileID: 11400000, guid: 0854c4970bdba6c088e5530f42343648, type: 2}
+        Cost: 0
+        Description: Base Spell,<br>Prevents Ingredients Attacking
+      - Item: {fileID: 11400000, guid: 12fe24189b171294fabcadb41305234e, type: 2}
+        Cost: 70
+        Description: +0.5 Cast Range, +0.75 Radius
+      - Item: {fileID: 11400000, guid: b3c2fea6f696b9a44ab3778478c63ab1, type: 2}
+        Cost: 150
+        Description: +1 Cast Range, +1.5 Radius
+  ShopTutorialPlayed: 0
+  Build: 
+  Health:
+    _Value: 3
+    Dirty: 0
+  Currency:
+    _Value: 0
+    Dirty: 0
+  MaxHealth: 3

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9fa67ff461a38e49b8a4411cbc1e6f1, type: 3}
+  m_Name: Loading Screen Data
+  m_EditorClassIdentifier: 
+  LoadingScreenPool:
+  - {fileID: 21300000, guid: 2a8750c3e45209545be8d9db85caebbd, type: 3}
+  - {fileID: 21300000, guid: a579ed65dba6da740a3bf05c6275707d, type: 3}
+  - {fileID: 21300000, guid: b6da4c3e6eecb1847bce2986c93b59e1, type: 3}
+  - {fileID: 21300000, guid: cac51004b3e6ef044a01a8db402d1018, type: 3}

@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SoulImbuer_headMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3/Flower:RAFFLESIA_L_tentacle_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3/Flower:RAFFLESIA_L_tentacle_jt_4/Flower:RAFFLESIA_L_tentacle_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3/Flower:RAFFLESIA_L_tentacle_jt_4/Flower:RAFFLESIA_L_tentacle_jt_5/Flower:RAFFLESIA_L_tentacle_jt_6
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3/Flower:RAFFLESIA_L_tentacle_jt_4/Flower:RAFFLESIA_L_tentacle_jt_5/Flower:RAFFLESIA_L_tentacle_jt_6/Flower:RAFFLESIA_L_tentacle_jt_7
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_L_tentacle_jt_1/Flower:RAFFLESIA_L_tentacle_jt_2/Flower:RAFFLESIA_L_tentacle_jt_3/Flower:RAFFLESIA_L_tentacle_jt_4/Flower:RAFFLESIA_L_tentacle_jt_5/Flower:RAFFLESIA_L_tentacle_jt_6/Flower:RAFFLESIA_L_tentacle_jt_7/Flower:RAFFLESIA_L_tentacle_NUB
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1
+    m_Weight: 0
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerLeaf_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerLeaf_jt_1/Flower:RAFFLESIA_L_lowerLeaf_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerLeaf_jt_1/Flower:RAFFLESIA_L_lowerLeaf_jt_2/Flower:RAFFLESIA_L_lowerLeaf_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerPetal_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerPetal_jt_1/Flower:RAFFLESIA_L_lowerPetal_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerPetal_jt_1/Flower:RAFFLESIA_L_lowerPetal_jt_2/Flower:RAFFLESIA_L_lowerPetal_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_lowerPetal_jt_1/Flower:RAFFLESIA_L_lowerPetal_jt_2/Flower:RAFFLESIA_L_lowerPetal_jt_4/Flower:RAFFLESIA_L_lowerPetal_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_upperLeaf_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_upperLeaf_jt_4/Flower:RAFFLESIA_L_upperLeaf_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_upperLeaf_jt_4/Flower:RAFFLESIA_L_upperLeaf_jt_5/Flower:RAFFLESIA_L_upperLeaf_jt_6
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_UpperPetal_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_UpperPetal_jt_1/Flower:RAFFLESIA_L_UpperPetal_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_UpperPetal_jt_1/Flower:RAFFLESIA_L_UpperPetal_jt_2/Flower:RAFFLESIA_L_UpperPetal_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_L_UpperPetal_jt_1/Flower:RAFFLESIA_L_UpperPetal_jt_2/Flower:RAFFLESIA_L_UpperPetal_jt_4/Flower:RAFFLESIA_L_UpperPetal_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_lowerJaw_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_lowerJaw_jt_1/Flower:RAFFLESIA_lowerJaw_nub
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_lowerJaw_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_lowerJaw_jt_2/Flower:RAFFLESIA_lowerJaw_nub
+      1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_leaf_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_leaf_jt_1/Flower:RAFFLESIA_M_leaf_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_leaf_jt_1/Flower:RAFFLESIA_M_leaf_jt_2/Flower:RAFFLESIA_M_leaf_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_Petal_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_Petal_jt_1/Flower:RAFFLESIA_M_Petal_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_Petal_jt_1/Flower:RAFFLESIA_M_Petal_jt_2/Flower:RAFFLESIA_M_Petal_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_M_Petal_jt_1/Flower:RAFFLESIA_M_Petal_jt_2/Flower:RAFFLESIA_M_Petal_jt_4/Flower:RAFFLESIA_M_Petal_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_lowerLeaf_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_lowerLeaf_jt_1/Flower:RAFFLESIA_R_lowerLeaf_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_lowerLeaf_jt_1/Flower:RAFFLESIA_R_lowerLeaf_jt_2/Flower:RAFFLESIA_R_lowerLeaf_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_upperLeaf_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_upperLeaf_jt_1/Flower:RAFFLESIA_R_upperLeaf_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_R_upperLeaf_jt_1/Flower:RAFFLESIA_R_upperLeaf_jt_2/Flower:RAFFLESIA_R_upperLeaf_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_upperjaw_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_upperjaw_jt_1/Flower:RAFFLESIA_upperjaw_nub
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_upperjaw_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFLESIA_upperjaw_jt_2/Flower:RAFFLESIA_upperjaw_nub
+      1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_lowerPetal_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_lowerPetal_jt_1/Flower:RAFFRESIA_R_lowerPetal_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_lowerPetal_jt_1/Flower:RAFFRESIA_R_lowerPetal_jt_2/Flower:RAFFRESIA_R_lowerPetal_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_lowerPetal_jt_1/Flower:RAFFRESIA_R_lowerPetal_jt_2/Flower:RAFFRESIA_R_lowerPetal_jt_4/Flower:RAFFRESIA_R_lowerPetal_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_UpperPetal_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_UpperPetal_jt_1/Flower:RAFFRESIA_R_UpperPetal_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_UpperPetal_jt_1/Flower:RAFFRESIA_R_UpperPetal_jt_2/Flower:RAFFRESIA_R_UpperPetal_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFLESIA_Spine_jt_1/Flower:RAFFLESIA_Spine_jt_2/Flower:RAFFLESIA_Spine_jt_3/Flower:RAFFLESIA_head_jt1/Flower:RAFFRESIA_R_UpperPetal_jt_1/Flower:RAFFRESIA_R_UpperPetal_jt_2/Flower:RAFFRESIA_R_UpperPetal_jt_4/Flower:RAFFRESIA_R_UpperPetal_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3/Flower:RAFFRESIA_R_tentacle_jt_4
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3/Flower:RAFFRESIA_R_tentacle_jt_4/Flower:RAFFRESIA_R_tentacle_jt_5
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3/Flower:RAFFRESIA_R_tentacle_jt_4/Flower:RAFFRESIA_R_tentacle_jt_5/Flower:RAFFRESIA_R_tentacle_jt_6
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3/Flower:RAFFRESIA_R_tentacle_jt_4/Flower:RAFFRESIA_R_tentacle_jt_5/Flower:RAFFRESIA_R_tentacle_jt_6/Flower:RAFFRESIA_R_tentacle_jt_7
+    m_Weight: 1
+  - m_Path: Flower:RAFF_bones/Flower:RAFFLESIA_Root_jt/Flower:RAFFRESIA_R_tentacle_jt_1/Flower:RAFFRESIA_R_tentacle_jt_2/Flower:RAFFRESIA_R_tentacle_jt_3/Flower:RAFFRESIA_R_tentacle_jt_4/Flower:RAFFRESIA_R_tentacle_jt_5/Flower:RAFFRESIA_R_tentacle_jt_6/Flower:RAFFRESIA_R_tentacle_jt_7/Flower:RAFFRESIA_R_tentacle_NUB
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals/Flower:Petal_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals/Flower:Petal_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals/Flower:Petal_3
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals/Flower:Petal_4
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:Petals/Flower:Petal_5
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_MESH2/Flower:polySurface27
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:PETALCURL
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1/Flower:RAFFLESIA_L_tentacle_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1/Flower:RAFFLESIA_L_tentacle_ctrl_2/Flower:RAFFLESIA_L_tentacle_ctrl_3
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1/Flower:RAFFLESIA_L_tentacle_ctrl_2/Flower:RAFFLESIA_L_tentacle_ctrl_3/Flower:RAFFLESIA_L_tentacle_ctrl_4
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1/Flower:RAFFLESIA_L_tentacle_ctrl_2/Flower:RAFFLESIA_L_tentacle_ctrl_3/Flower:RAFFLESIA_L_tentacle_ctrl_4/Flower:RAFFLESIA_L_tentacle_ctrl_6
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_L_tentacle_ctrl_0/Flower:RAFFLESIA_L_tentacle_ctrl_1/Flower:RAFFLESIA_L_tentacle_ctrl_2/Flower:RAFFLESIA_L_tentacle_ctrl_3/Flower:RAFFLESIA_L_tentacle_ctrl_4/Flower:RAFFLESIA_L_tentacle_ctrl_6/Flower:RAFFLESIA_L_tentacle_ctrl_5
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1/Flower:RAFFLESIA_R_tentacle_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1/Flower:RAFFLESIA_R_tentacle_ctrl_2/Flower:RAFFLESIA_R_tentacle_ctrl_3
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1/Flower:RAFFLESIA_R_tentacle_ctrl_2/Flower:RAFFLESIA_R_tentacle_ctrl_3/Flower:RAFFLESIA_R_tentacle_ctrl_4
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1/Flower:RAFFLESIA_R_tentacle_ctrl_2/Flower:RAFFLESIA_R_tentacle_ctrl_3/Flower:RAFFLESIA_R_tentacle_ctrl_4/Flower:RAFFLESIA_R_tentacle_ctrl_6
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_R_tentacle_ctrl_0/Flower:RAFFLESIA_R_tentacle_ctrl_1/Flower:RAFFLESIA_R_tentacle_ctrl_2/Flower:RAFFLESIA_R_tentacle_ctrl_3/Flower:RAFFLESIA_R_tentacle_ctrl_4/Flower:RAFFLESIA_R_tentacle_ctrl_6/Flower:RAFFLESIA_R_tentacle_ctrl_5
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_L_lowerLeaf_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_L_lowerLeaf_ctrl_1/Flower:RAFFLESIA_L_lowerLeaf_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_L_upperLeaf_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_L_upperLeaf_ctrl_1/Flower:RAFFLESIA_L_upperLeaf_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_LowerJaw_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_LowerJaw_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_M_lead_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_M_lead_ctrl_1/Flower:RAFFLESIA_M_lead_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_R_lowerLeaf_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_R_lowerLeaf_ctrl_1/Flower:RAFFLESIA_R_lowerLeaf_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_R_upperLeaf_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_R_upperLeaf_ctrl_1/Flower:RAFFLESIA_R_upperLeaf_ctrl_2
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_UpperJaw_ctrl_1
+    m_Weight: 1
+  - m_Path: Flower:RAFFLESIA_Rescaler/Flower:RAFFLESIA_Root_ctrl/Flower:RAFFLESIA_Spine_ctrl_1/Flower:RAFFLESIA_Spine_ctrl_2/Flower:RAFFLESIA_neck_ctrl_1/Flower:RAFFLESIA_Head_ctrl_1/Flower:RAFFLESIA_UpperJaw_ctrl_2
+    m_Weight: 1

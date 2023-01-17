@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 7eb34552b6bf7b4479613ffef5b80dda
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -917797959397766400
+    second: Toaby_Idle_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toad_lambert2
+    second: {fileID: 2100000, guid: e8f6f8d4d790d1d47a7804a315fd4e59, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Toaby_Idle_01
+      takeName: Toaby_Idle_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: toad:Toaby_Mesh
+        weight: 1
+      - path: toad:Toaby_Mesh/toad:EYES_Low
+        weight: 1
+      - path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2
+        weight: 1
+      - path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2/toad:polySurface3
+        weight: 1
+      - path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2/toad:polySurface4
+        weight: 1
+      - path: toad:Toaby_Mesh/toad:TOABY_Low1
+        weight: 1
+      - path: toad:TOABY_RootCtrl
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:CROAK
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:CROAK/toad:TOABY_Croak_ctrl
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:OpenMouth
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:OpenMouth/toad:TOABY_OpenCloseMouth_ctrl
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_L_foot_ctrl_1
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_L_foot_ctrl_1/toad:TOABY_L_foot_ctrl_2
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl
+        weight: 0
+      - path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl/toad:TOABY_L_Eye_ctrl
+        weight: 0
+      - path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl/toad:TOABY_R_Eye_ctrl
+        weight: 0
+      - path: toad:TOABY_RootCtrl/toad:TOABY_R_foot_ctrl_1
+        weight: 1
+      - path: toad:TOABY_RootCtrl/toad:TOABY_R_foot_ctrl_1/toad:TOABY_R_foot_ctrl_2
+        weight: 1
+      - path: toad:TOABY_Skeleton
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:CROAK 1
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:OPENCLOSE
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_L_eye_jt
+        weight: 0
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_L_eye_jt/toad:TOABY_L_eye_nub
+        weight: 0
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_R_eye_jt
+        weight: 0
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_R_eye_jt/toad:TOABY_R_eye_nub
+        weight: 0
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1/toad:TOABY_L_foot_jt_2
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1/toad:TOABY_L_foot_jt_2/toad:TOABY_L_foot_nub
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1/toad:TOABY_R_foot_jt_2
+        weight: 1
+      - path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1/toad:TOABY_R_foot_jt_2/toad:TOABY_R_foot_jt_3
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 5be7e54d2769ce146a85ced099b67661, type: 2}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 77110c1828519324f8635add341f5c1b, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

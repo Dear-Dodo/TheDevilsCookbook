@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4388ed87273151728a8a09057b938b92
+  m_SerializeEntries:
+  - m_GUID: d688a0fdabf2963ea873bb4975ee6205
+    m_Address: Game Manager
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 1435383887144329279, guid: d688a0fdabf2963ea873bb4975ee6205, type: 3}
+    m_TargetAsset: {fileID: 1435383887144329279, guid: d688a0fdabf2963ea873bb4975ee6205, type: 3}
+  - m_GUID: d1989c13c49be6bcb9ab2917912bccb7
+    m_Address: OverlayCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 1250867999119713939, guid: d1989c13c49be6bcb9ab2917912bccb7, type: 3}
+    m_TargetAsset: {fileID: 1250867999119713939, guid: d1989c13c49be6bcb9ab2917912bccb7, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 95d870fc04ac8aea79c5f0172d65f5fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cdc198415d1803a6ab82844f2c7e064a, type: 2}
+    - {fileID: 11400000, guid: 5883a59e5e150f975a093de7749fffa0, type: 2}

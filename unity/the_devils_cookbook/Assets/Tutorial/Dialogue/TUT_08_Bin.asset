@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71da34c88b0acd46ab58454c91a3273, type: 3}
+  m_Name: TUT_08_Bin
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Baaphie
+    Text: Ouch.
+    Portrait: {fileID: 21300000, guid: 0507ce22e94f8d1438758a1103d8a44d, type: 3}
+  - CharacterName: Baaphie
+    Text: "Well shake it off, kid, we\u2019ve got some real customers coming soon.
+      Pretty sure they\u2019re going to order something other than that little kebab
+      you made."
+    Portrait: {fileID: 21300000, guid: 580bddbe5e8b1bb4fae6356592a750e6, type: 3}
+  - CharacterName: Baaphie
+    Text: Bring that kebab over to Toaby to get rid of it. That guy will eat anything.
+    Portrait: {fileID: 21300000, guid: 0507ce22e94f8d1438758a1103d8a44d, type: 3}
+  - CharacterName: 
+    Text: 'You can only carry <b>one dish at a time.</b> Use the bin to get rid of
+      ingredients and dishes you no longer need. '
+    Portrait: {fileID: 0}

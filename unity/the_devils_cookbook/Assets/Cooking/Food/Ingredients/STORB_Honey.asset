@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0efa9a3a044c44cace3cfa012d82f0, type: 3}
+  m_Name: STORB_Honey
+  m_EditorClassIdentifier: 
+  Name: Honey
+  StorageTypes: 0
+  Icon: {fileID: 21300000, guid: 3503585ba36234042bbb46e14b681bcf, type: 3}
+  Prefab: {fileID: 5159384421793443372, guid: ef5078e4f5668ec4f803ee9c22f8e976, type: 3}
+  IsOrderable: 0
+  ValidDifficulties: 0
+  Weighting: 0
+  Creature: {fileID: 7821114336645851157, guid: 817a35d5db9464c4b849df79adfbe55d, type: 3}

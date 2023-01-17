@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toaby_eyeMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh/toad:EYES_Low
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2/toad:polySurface3
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh/toad:EYES_Low/toad:polySurface2/toad:polySurface4
+    m_Weight: 1
+  - m_Path: toad:Toaby_Mesh/toad:TOABY_Low1
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:CROAK
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:CROAK/toad:TOABY_Croak_ctrl
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:OpenMouth
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:OpenMouth/toad:TOABY_OpenCloseMouth_ctrl
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_L_foot_ctrl_1
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_L_foot_ctrl_1/toad:TOABY_L_foot_ctrl_2
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl
+    m_Weight: 0
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl/toad:TOABY_L_Eye_ctrl
+    m_Weight: 0
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_LowerBack_ctrl/toad:TOABY_UpperBack_ctrl/toad:TOABY_MasterEye_ctrl/toad:TOABY_R_Eye_ctrl
+    m_Weight: 0
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_R_foot_ctrl_1
+    m_Weight: 1
+  - m_Path: toad:TOABY_RootCtrl/toad:TOABY_R_foot_ctrl_1/toad:TOABY_R_foot_ctrl_2
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:CROAK 1
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:OPENCLOSE
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_L_eye_jt
+    m_Weight: 0
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_L_eye_jt/toad:TOABY_L_eye_nub
+    m_Weight: 0
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_R_eye_jt
+    m_Weight: 0
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_body_jt_1/toad:TOABY_body_jt_2/toad:TOABY_body_jt_3/toad:TOABY_R_eye_jt/toad:TOABY_R_eye_nub
+    m_Weight: 0
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1/toad:TOABY_L_foot_jt_2
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_L_foot_jt_1/toad:TOABY_L_foot_jt_2/toad:TOABY_L_foot_nub
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1/toad:TOABY_R_foot_jt_2
+    m_Weight: 1
+  - m_Path: toad:TOABY_Skeleton/toad:TOABY_root_jt/toad:TOABY_hip_jt/toad:TOABY_R_foot_jt_1/toad:TOABY_R_foot_jt_2/toad:TOABY_R_foot_jt_3
+    m_Weight: 1

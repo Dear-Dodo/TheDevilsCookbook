@@ -1,0 +1,2107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9094437101599901110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Talk
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Talk
+  Guid:
+    Data1: 1254383734
+    Data2: 1325091850
+    Data3: 853534090
+    Data4: 1939569570
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-9024099192174705177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Level Complete
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Level Complete
+  Guid:
+    Data1: 859998281
+    Data2: 1239648278
+    Data3: -682257278
+    Data4: 1170028831
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8244427994185927425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Ambient/Burbles
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Ambient/Burbles
+  Guid:
+    Data1: -1472577530
+    Data2: 1100010810
+    Data3: 50497461
+    Data4: -1677088372
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 424
+--- !u!114 &-8088031792314268345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Bin/Close
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Bin/Close
+  Guid:
+    Data1: -1569556302
+    Data2: 1248515143
+    Data3: -259017337
+    Data4: -1933503511
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 268
+--- !u!114 &-7565895652959092400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Dash
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Dash
+  Guid:
+    Data1: 1692484926
+    Data2: 1177840812
+    Data3: 443008160
+    Data4: 365425140
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7503227172759933689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Baaphie Talk
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Baaphie Talk
+  Guid:
+    Data1: -154537920
+    Data2: 1300164474
+    Data3: -332588374
+    Data4: 1783427299
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 655
+--- !u!114 &-7042739466902551775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Silence
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Silence
+  Guid:
+    Data1: -1257075526
+    Data2: 1237684767
+    Data3: 2140441226
+    Data4: 710721802
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
+--- !u!114 &-7012367521927709959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Spell Unlock
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Spell Unlock
+  Guid:
+    Data1: 1944725775
+    Data2: 1261231679
+    Data3: 572317830
+    Data4: 70915902
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6479150235169655078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MenuMusic/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6101724047398801053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Soul Imbuer/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Soul Imbuer/Ambient
+  Guid:
+    Data1: 1459555521
+    Data2: 1074687772
+    Data3: 760152499
+    Data4: -1439088439
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 45340
+--- !u!114 &-5881817304942945560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Stun
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Stun
+  Guid:
+    Data1: 1611523775
+    Data2: 1303946418
+    Data3: 553850282
+    Data4: -921955074
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 350
+--- !u!114 &-5506795008848289008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Soul Imbuer/Active
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Soul Imbuer/Active
+  Guid:
+    Data1: 902878342
+    Data2: 1323672335
+    Data3: 610043279
+    Data4: -223597236
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 714
+--- !u!114 &-5388207025376662903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Hiss
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Hiss
+  Guid:
+    Data1: 1309026447
+    Data2: 1274064555
+    Data3: -258962778
+    Data4: -1750825418
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1184
+--- !u!114 &-4794702744174060363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Grab
+  Guid:
+    Data1: 1610671158
+    Data2: 1219635240
+    Data3: 1708784054
+    Data4: 107425213
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4057
+--- !u!114 &-4481680707779767909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Push
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Push
+  Guid:
+    Data1: 1440708277
+    Data2: 1199374177
+    Data3: -359297864
+    Data4: 588922931
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 593
+--- !u!114 &-4413482796880021820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/LevelMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/LevelMusic
+  Guid:
+    Data1: -132365362
+    Data2: 1195713929
+    Data3: -731896423
+    Data4: -1481607851
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -872237458619909017}
+  - {fileID: -2788632250879045207}
+  - {fileID: 1445049005256960840}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 318354
+--- !u!114 &-4147213322529568610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MenuMusic/SkipMenuCutscene
+  m_EditorClassIdentifier: 
+  Name: SkipMenuCutscene
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1607710797
+    data2: 2122887009
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4072176865258020160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Soul Imbuer/Spit
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Soul Imbuer/Spit
+  Guid:
+    Data1: 1679357435
+    Data2: 1200126251
+    Data3: 564806040
+    Data4: 1575633115
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4009176649536965327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Satisfied
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Satisfied
+  Guid:
+    Data1: -1263856413
+    Data2: 1083561370
+    Data3: 1882971271
+    Data4: -103121068
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1363
+--- !u!114 &-3822095894178176156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Ambient
+  Guid:
+    Data1: 2066527036
+    Data2: 1315576721
+    Data3: -1264004452
+    Data4: -1598753077
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24033
+--- !u!114 &-3600354395842132808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Fail
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Fail
+  Guid:
+    Data1: 469901536
+    Data2: 1244941720
+    Data3: -1029797484
+    Data4: 2038448774
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3452227153706139225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Meat/Charge Step
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Meat/Charge Step
+  Guid:
+    Data1: 1731658776
+    Data2: 1314671233
+    Data3: -245349
+    Data4: -917525264
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3237206541575867120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Hover
+  Guid:
+    Data1: -1169692697
+    Data2: 1203778720
+    Data3: -2093597054
+    Data4: -1332402986
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3167532682057793224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Talk
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Talk
+  Guid:
+    Data1: -1056303398
+    Data2: 1326457431
+    Data3: 2044866990
+    Data4: -1957529122
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3091524801779922889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Open
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Open
+  Guid:
+    Data1: -1682224108
+    Data2: 1146709417
+    Data3: 1315313557
+    Data4: -1938620087
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-2953668500953372318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Button Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Button Click
+  Guid:
+    Data1: 1991713864
+    Data2: 1099582497
+    Data3: 1658558119
+    Data4: -1943134936
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 270
+--- !u!114 &-2865125973750749780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Ding
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Ding
+  Guid:
+    Data1: 1729249838
+    Data2: 1244645094
+    Data3: -516640074
+    Data4: -1907923896
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2788632250879045207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LevelMusic/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2425005621317682621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Death grunt
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Death grunt
+  Guid:
+    Data1: -107619765
+    Data2: 1312922846
+    Data3: 2069281669
+    Data4: -1433826141
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2696
+--- !u!114 &-2418865840676245706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  StudioPath: parameter:/Health
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 2873838287
+    data2: 405021654
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2311766192244929474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Loss
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Loss
+  Guid:
+    Data1: -28889619
+    Data2: 1121698311
+    Data3: -1495165796
+    Data4: 130191190
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6974245713830118341}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9013
+--- !u!114 &-2256332965408929242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Pull
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Pull
+  Guid:
+    Data1: 422420781
+    Data2: 1267828294
+    Data3: -434520397
+    Data4: -793857148
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1856811617224015872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Dash
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Dash
+  Guid:
+    Data1: 1692484926
+    Data2: 1177840812
+    Data3: 443008160
+    Data4: 365425140
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1484297129039177210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../fmod/the_devils_cookbook/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638056209150000000
+  FileSizes:
+  - Name: Desktop
+    Value: 8371296
+  Exists: 1
+--- !u!114 &-1385765877571086028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ShopMusic/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1096082185354872497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Sizzle
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Sizzle
+  Guid:
+    Data1: 884530688
+    Data2: 1139658090
+    Data3: 1326555803
+    Data4: 512558420
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 960
+--- !u!114 &-954438664919195659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Slow
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Slow
+  Guid:
+    Data1: 1732835144
+    Data2: 1082575496
+    Data3: 883490728
+    Data4: -689705319
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7478
+--- !u!114 &-891419297929977401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Collect Money
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Collect Money
+  Guid:
+    Data1: 150034830
+    Data2: 1195093528
+    Data3: -1320028523
+    Data4: -2081552859
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 369
+--- !u!114 &-872237458619909017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LevelMusic/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 3
+  ID:
+    data1: 2873838287
+    data2: 405021654
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-681019239648943081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Upgrade Unlock
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Upgrade Unlock
+  Guid:
+    Data1: 1269469834
+    Data2: 1323440694
+    Data3: -849179500
+    Data4: 1368411900
+  Banks:
+  - {fileID: 7727215947230340201}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 1462947093010719610}
+  - {fileID: 7127495195747112665}
+  - {fileID: 8539899577654213952}
+  - {fileID: -1484297129039177210}
+  - {fileID: 7727215947230340201}
+  EditorEvents:
+  - {fileID: -2256332965408929242}
+  - {fileID: -4794702744174060363}
+  - {fileID: 7971162749501617929}
+  - {fileID: 3203664086645395976}
+  - {fileID: -4413482796880021820}
+  - {fileID: 1740289302901625045}
+  - {fileID: -7565895652959092400}
+  - {fileID: 5753424354671209625}
+  - {fileID: 7904829144367666212}
+  - {fileID: -1096082185354872497}
+  - {fileID: -8244427994185927425}
+  - {fileID: -3091524801779922889}
+  - {fileID: 3480474922047712930}
+  - {fileID: -3452227153706139225}
+  - {fileID: 6460421721433256126}
+  - {fileID: 6213572332101017313}
+  - {fileID: 1841365613184927760}
+  - {fileID: -3822095894178176156}
+  - {fileID: 2719848955286340892}
+  - {fileID: 5017475902198747401}
+  - {fileID: -954438664919195659}
+  - {fileID: -2425005621317682621}
+  - {fileID: 8034865574526208664}
+  - {fileID: 5068961834852549022}
+  - {fileID: 9214004207373871587}
+  - {fileID: 7092881046615558672}
+  - {fileID: -9094437101599901110}
+  - {fileID: 8071230657829569015}
+  - {fileID: -5506795008848289008}
+  - {fileID: 1658822441911964251}
+  - {fileID: -5388207025376662903}
+  - {fileID: 7856170532721376800}
+  - {fileID: 8842039314101084039}
+  - {fileID: 8883620297939303996}
+  - {fileID: -8088031792314268345}
+  - {fileID: -4481680707779767909}
+  - {fileID: -7042739466902551775}
+  - {fileID: -5881817304942945560}
+  - {fileID: -6101724047398801053}
+  - {fileID: 143383569664042073}
+  - {fileID: 9080732746142269612}
+  - {fileID: -3167532682057793224}
+  - {fileID: -4009176649536965327}
+  - {fileID: 6517119262080432074}
+  - {fileID: 7028474671972004012}
+  - {fileID: -7012367521927709959}
+  - {fileID: -7503227172759933689}
+  - {fileID: -2953668500953372318}
+  - {fileID: -9024099192174705177}
+  - {fileID: -681019239648943081}
+  - {fileID: -891419297929977401}
+  - {fileID: -3600354395842132808}
+  - {fileID: -3237206541575867120}
+  - {fileID: 4439530812726699086}
+  - {fileID: 5393027122296043419}
+  - {fileID: 1543858583083921683}
+  - {fileID: -2311766192244929474}
+  EditorParameters:
+  - {fileID: -2418865840676245706}
+  MasterBanks:
+  - {fileID: 7127495195747112665}
+  StringsBanks:
+  - {fileID: 1462947093010719610}
+  cacheTime: 638056209150000000
+  cacheVersion: 131591
+--- !u!114 &143383569664042073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Panic
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Panic
+  Guid:
+    Data1: -1050179647
+    Data2: 1301525425
+    Data3: -1731942466
+    Data4: 32998375
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 686
+--- !u!114 &1445049005256960840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LevelMusic/Cutoff
+  m_EditorClassIdentifier: 
+  Name: Cutoff
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 2151555085
+    data2: 3985727283
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1462947093010719610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../fmod/the_devils_cookbook/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638056209140000000
+  FileSizes:
+  - Name: Desktop
+    Value: 3814
+  Exists: 1
+--- !u!114 &1543858583083921683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Win
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Win
+  Guid:
+    Data1: 208407990
+    Data2: 1157436875
+    Data3: -441979499
+    Data4: -831873945
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8134986954741098078}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7356
+--- !u!114 &1658822441911964251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Soul Imbuer/Talk
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Soul Imbuer/Talk
+  Guid:
+    Data1: -1977597298
+    Data2: 1300468662
+    Data3: 1881955753
+    Data4: -850824851
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1740289302901625045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Step
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Step
+  Guid:
+    Data1: 141768998
+    Data2: 1209331136
+    Data3: -1197954392
+    Data4: 466298012
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1841365613184927760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Burrow
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Burrow
+  Guid:
+    Data1: 334496826
+    Data2: 1212625548
+    Data3: 2077837756
+    Data4: 2114535999
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3095
+--- !u!114 &2357387150423228682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Step
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Step
+  Guid:
+    Data1: 141768998
+    Data2: 1209331136
+    Data3: -1197954392
+    Data4: 466298012
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2719848955286340892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Close
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Close
+  Guid:
+    Data1: -1976835011
+    Data2: 1147975669
+    Data3: -245115203
+    Data4: 1991263105
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 661
+--- !u!114 &3203664086645395976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MenuMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MenuMusic
+  Guid:
+    Data1: -726788473
+    Data2: 1216357617
+    Data3: 948376497
+    Data4: 1912233704
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4147213322529568610}
+  - {fileID: -6479150235169655078}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 98336
+--- !u!114 &3480474922047712930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Bat/Flap
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Bat/Flap
+  Guid:
+    Data1: 1771172887
+    Data2: 1196092209
+    Data3: -37217123
+    Data4: 623026200
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4439530812726699086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/StunBlast
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/StunBlast
+  Guid:
+    Data1: -852763595
+    Data2: 1183640754
+    Data3: -1910177861
+    Data4: -746619738
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2995
+--- !u!114 &4634545038236578011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TutorialMusic/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5017475902198747401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Bin/Open
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Bin/Open
+  Guid:
+    Data1: 585152575
+    Data2: 1269888787
+    Data3: 2082091412
+    Data4: 976628433
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 608
+--- !u!114 &5068961834852549022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Appear
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Appear
+  Guid:
+    Data1: -1252838056
+    Data2: 1219498250
+    Data3: 1260971710
+    Data4: -1649384586
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1413
+--- !u!114 &5393027122296043419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/ShopMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/ShopMusic
+  Guid:
+    Data1: 404215685
+    Data2: 1093938360
+    Data3: -428455764
+    Data4: -1373785967
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1385765877571086028}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104515
+--- !u!114 &5753424354671209625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Soul Imbuer/Spit
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Soul Imbuer/Spit
+  Guid:
+    Data1: 1679357435
+    Data2: 1200126251
+    Data3: 564806040
+    Data4: 1575633115
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6213572332101017313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Meat/Charge Rage
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Meat/Charge Rage
+  Guid:
+    Data1: 1356663341
+    Data2: 1222179714
+    Data3: 1554505888
+    Data4: 1284884541
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 748
+--- !u!114 &6460421721433256126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Catch
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Catch
+  Guid:
+    Data1: -1836927702
+    Data2: 1182760410
+    Data3: 1666416264
+    Data4: -2123817731
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 463
+--- !u!114 &6517119262080432074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Bin/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Bin/Ambient
+  Guid:
+    Data1: -432720667
+    Data2: 1238829771
+    Data3: -811704134
+    Data4: 472855496
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
+--- !u!114 &6974245713830118341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Loss/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7028474671972004012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Slide
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Slide
+  Guid:
+    Data1: 170366973
+    Data2: 1255266348
+    Data3: 2048017817
+    Data4: 1701294558
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1010
+--- !u!114 &7092881046615558672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Noodle/Slide
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Noodle/Slide
+  Guid:
+    Data1: 305526108
+    Data2: 1211830426
+    Data3: 245152685
+    Data4: 1236441854
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8943130791616241991}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1010
+--- !u!114 &7127495195747112665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../fmod/the_devils_cookbook/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638056209140000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1814
+  Exists: 1
+--- !u!114 &7727215947230340201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: ../../fmod/the_devils_cookbook/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638056209150000000
+  FileSizes:
+  - Name: Desktop
+    Value: 53280
+  Exists: 1
+--- !u!114 &7856170532721376800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Ambient/Cupboard Creak
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Ambient/Cupboard Creak
+  Guid:
+    Data1: 1682346654
+    Data2: 1254708882
+    Data3: -636123774
+    Data4: 668893806
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7904829144367666212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enviroment/Appliance/Oven/Ding
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enviroment/Appliance/Oven/Ding
+  Guid:
+    Data1: 1729249838
+    Data2: 1244645094
+    Data3: -516640074
+    Data4: -1907923896
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7971162749501617929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/TutorialMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/TutorialMusic
+  Guid:
+    Data1: 821779026
+    Data2: 1306913076
+    Data3: -759003244
+    Data4: -1100685231
+  Banks:
+  - {fileID: -1484297129039177210}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4634545038236578011}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 68181
+--- !u!114 &8034865574526208664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Spell/Wall
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Spell/Wall
+  Guid:
+    Data1: 1244618581
+    Data2: 1194887144
+    Data3: 2121610903
+    Data4: 751777609
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &8071230657829569015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Death fall
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Death fall
+  Guid:
+    Data1: 743228793
+    Data2: 1152717323
+    Data3: -347367754
+    Data4: -1505005250
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 167
+--- !u!114 &8134986954741098078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Win/Fade
+  m_EditorClassIdentifier: 
+  Name: Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 402196766
+    data2: 2797636586
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8539899577654213952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Effects.bank
+  m_EditorClassIdentifier: 
+  Path: ../../fmod/the_devils_cookbook/Build/Desktop/Effects.bank
+  Name: Effects
+  StudioPath: bank:/Effects
+  lastModified: 638056209140000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1253024
+  Exists: 1
+--- !u!114 &8842039314101084039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Step
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Step
+  Guid:
+    Data1: 1129058983
+    Data2: 1282591185
+    Data3: -361104477
+    Data4: 116695098
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8883620297939303996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Hurt
+  Guid:
+    Data1: 1573088426
+    Data2: 1267948698
+    Data3: 296192646
+    Data4: -538911201
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &8943130791616241991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Slide/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 8568442
+    data2: 430811335
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &9080732746142269612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Patron/Bite
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Patron/Bite
+  Guid:
+    Data1: 1582544075
+    Data2: 1299747967
+    Data3: -888000586
+    Data4: 885944292
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1012
+--- !u!114 &9214004207373871587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemy/Ingredients/Bat/Spit
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemy/Ingredients/Bat/Spit
+  Guid:
+    Data1: 1241466202
+    Data2: 1189664818
+    Data3: -38624893
+    Data4: -969790229
+  Banks:
+  - {fileID: 8539899577654213952}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 83
