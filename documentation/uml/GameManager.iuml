@@ -1,0 +1,29 @@
+@startuml gameManager
+!include Style.iuml
+!includesub Patron.iuml!OrderManager
+!includesub Player.iuml!Player
+!includesub IngredientSpawner.iuml!IngredientSpawner
+
+
+class SceneLoader {
+    -_Scenes : UnitySerializableDictionary<string, int>
+    +PreLoadScene(name : string, isAdditive : bool) : Task<AsyncOperation>
+    +LoadScene(name : string, isAdditive : bool, minLoadTimeMS : float) : Task
+}
+
+class GameManager <<(M,orchid) Singleton>> {
+    {static} -instance : GameManager
+    {static} +Instance : GameManager
+    +Player : PlayerCharacter 
+    +OrderManagment : OrderManager
+    +IngredientSpawner : IngredientSpawner
+    +SceneLoader : SceneLoader
+    +StartLevel()
+    +EndLevel()
+}
+
+GameManager *-- OrderManager
+GameManager *-- PlayerCharacter
+GameManager *-- IngredientSpawner
+GameManager *-u- SceneLoader
+@enduml

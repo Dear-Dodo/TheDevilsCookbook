@@ -1,0 +1,61 @@
+@startuml Affectables
+
+!include Style.iuml
+
+class Affectable <<(M, orchid)>>
+{
+    +Silenced : bool
+    +Stunned : bool
+    +SlowdownAmount : float
+    +OnSilencedChanged : UnityEvent<bool>
+    +OnStunnedChanged : UnityEvent<bool>
+    +OnSlowdownAmountChanged : UnityEvent<float>
+    -_CurrentEffects : Dictionary<Type, EffectApplicationData>
+    +ApplyEffect(Effect effect) : bool
+    -_StackEffect(Effect effect) : bool   
+}
+
+abstract class Effect <<(O, orange)>>
+{
+    +Duration : float
+    +MaxDuration : float
+
+    #ApplyEffect(Affectable body) : void
+    #Restore(Affectable body) : void
+}
+
+class SilencedEffect <<(O,orange)>> 
+{
+    +ApplyEffect(Affectable body) : void
+    +Restore(Affectable body) : void
+}
+class StunEffect <<(O,orange)>> 
+{
+    +ApplyEffect(Affectable body) : void
+    +Restore(Affectable body) : void
+}
+class SlowEffect <<(O,orange)>> 
+{
+    +SlowAmount : float
+    +ApplyEffect(Affectable body) : void
+    +Restore(Affectable body) : void
+}
+
+struct EffectApplicationData
+{
+    +CurrentEffect : Effect
+    +CreationTime : DateTime
+    +DeletionTime : DateTime
+    +TimeLeft : float [get;set]
+    +EffectApplicationData(Effect effect)
+    +Deletable() : bool
+}
+
+Effect <|-- SilencedEffect
+Effect <|-- StunEffect
+Effect <|-- SlowEffect
+Affectable -- Effect
+Affectable - EffectApplicationData
+EffectApplicationData -- Effect
+
+@enduml

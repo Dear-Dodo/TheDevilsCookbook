@@ -1,0 +1,12 @@
+@startmindmap egg_ai
+!include Style.iuml
+
+* OrGate
+** AndGate 
+*** DistanceGreaterThanRange
+*** Run To Player
+** AndGate
+*** DistanceLessThanRange
+*** Explode
+
+@endmindmap

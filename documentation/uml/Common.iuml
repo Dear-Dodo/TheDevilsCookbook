@@ -1,0 +1,31 @@
+@startuml common
+hide enum methods
+!startsub ProcessState
+
+enum ProcessState {
+    Inactive
+    Ready
+    Active
+    Complete
+}
+
+!endsub
+
+!startsub Modifier
+enum Modifier {
+    Add
+    Multiply
+    Override
+    
+}
+!endsub
+
+!startsub Difficulty
+enum Difficulty <<Flags>> {
+    Easy
+    Medium
+    Hard
+}
+!endsub
+
+@enduml

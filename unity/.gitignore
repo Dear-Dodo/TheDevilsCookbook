@@ -6,3 +6,4 @@ the_devils_cookbook/obj
 the_devils_cookbook/UserSettings
 the_devils_cookbook/*.csproj
 the_devils_cookbook/*.DotSettings.user
+the_devils_cookbook/*.log

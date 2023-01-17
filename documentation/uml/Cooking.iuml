@@ -1,0 +1,78 @@
+@startuml cooking
+
+!include Style.iuml
+
+!includesub Interaction.iuml!Interactable
+!includesub Common.iuml!Modifier
+!includesub Common.iuml!Difficulty
+!includesub Common.iuml!ProcessState
+!includesub Item.iuml!IInventoryProvider
+!includesub Item.iuml!StorableObject
+
+namespace Cooking {
+
+    !startsub Food
+    class Food << (O,orange) >> {
+        +IsOrderable : bool
+        +ValidDifficulties : Difficulty
+        +Weighting : float
+    }
+    !endsub
+    class Recipe << (O,orange) >> {
+        +Input : Food[]
+        +Output : Food[]
+        +ProcessTimeModifier : Modifier
+        +ProcessTime : float
+        +Appliances : Type[]
+    }
+    class Appliance << (M,orchid) >> {
+        +State : ProcessState
+        -_Recipes : RecipeList
+        -_BaseProcessTime : float
+        -_ElapsedProcessTime : float
+    }
+    class RecipeList<< (O,orange) >> {
+        +Recipes : Recipe[]
+    }
+
+    note as N1
+        RecipeLists should be 
+        automatically populated
+        by an editor script
+        based on
+        Recipe::Appliances
+    end note
+
+    note left of Recipe::Appliances
+        Custom editor
+        dropdown with
+        values filled by
+        reflection.
+        (Inheritors of
+        Appliance)
+    end note
+
+    
+}
+
+Cooking.Appliance -- Cooking.RecipeList
+Cooking.Appliance -- ProcessState
+IInteractable <.. Cooking.Appliance
+IInventoryProvider <.l. Cooking.Appliance
+
+Cooking.Recipe -r- Modifier
+Cooking.Recipe -- Cooking.Food
+
+Cooking.RecipeList -- Cooking.Recipe
+
+Cooking.Food -r- Difficulty
+Cooking.Food --|> StorableObject
+
+note right of IInteractable
+    Interactions will deposit/withdraw
+    items from the appliance inventory
+    or activate/deactivate the appliance
+    process
+end note
+
+@enduml

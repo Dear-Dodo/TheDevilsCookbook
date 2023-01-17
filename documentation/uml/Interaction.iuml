@@ -1,0 +1,35 @@
+@startuml Interaction
+!include Style.iuml
+
+hide enum methods
+
+!includesub Item.iuml!IInventoryProvider
+
+!startsub Interactable
+enum Interaction {
+    Deposit
+    Withdraw
+    Activate
+    Deactivate
+    Inspect
+}
+
+interface IInteractable {
+    +OnInteracted : UnityEvent
+    +ValidInteractions : List<Interaction>
+    +Interact(Interactor, Interaction) : Task
+}
+IInteractable -- Interaction
+!endsub
+
+!startsub Interactor
+class Interactor << (M,orchid) >>{
+    -_Range : float
+    +Inventory : IInventoryProvider
+    +TryGetInteractables() : IInteractable[]
+    +GetMostRelevantInteractable() : IInteractable
+}
+!endsub
+
+Interactor o-- IInventoryProvider
+@enduml

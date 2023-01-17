@@ -1,0 +1,43 @@
+@startuml hud
+
+!include Style.iuml
+' !includesub Player.iuml!Health
+!includesub UIWindow.iuml!IWindow
+!include InventoryUI.iuml
+!include SpellBarUI.iuml
+!includesub OrderUI.iuml!Orders
+
+remove IInventoryProvider
+remove Health
+remove Inventory
+remove StorableObject
+remove SpellData
+
+namespace UI.HUD {
+
+    class HUDController << (M, orchid) >> implements UI.IWindow{
+        -_WidgetTarget : Gameobject
+        +InventoryTarget : Inventory {get}
+        +HealthTarget : Health {get}
+        +SpellcasterTarget : Spellcaster {get}
+        +InputTarget : PlayerInput {get}
+    }
+
+    class HealthWidget << (M,orchid) >> {
+        -_Separators : List<RectTransform>
+        -_SegmentCount : int
+        +SetValue(int value)
+        +SetMaxValue(int max)
+    }
+
+    HUDController <-- HealthWidget
+    HUDController <- UI.HUD.Inventory.InventoryWidget
+    
+    HUDController <-u- UI.HUD.Spells.SpellbarWidget
+    HUDController <-r- UI.HUD.Orders.OrderListWidget
+}
+
+
+UI.HUD.HealthWidget - Health
+
+@enduml

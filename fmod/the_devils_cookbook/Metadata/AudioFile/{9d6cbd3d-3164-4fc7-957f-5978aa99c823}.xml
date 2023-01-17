@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9d6cbd3d-3164-4fc7-957f-5978aa99c823}">
+		<property name="assetPath">
+			<value>Music/Level Phase 3 Loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>70.129455782312931</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5b554b81-63e2-420c-b307-706cea04aff1}</destination>
+		</relationship>
+	</object>
+</objects>

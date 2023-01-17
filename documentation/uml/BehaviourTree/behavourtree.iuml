@@ -1,0 +1,19 @@
+@startuml behaviourtree
+!include Style.iuml
+!includesub tree.iuml!Tree
+!includesub node.iuml!Node
+!includesub node.iuml!NodeState
+!includesub contextcontainer.iuml!ContextContainer
+
+!startsub Agent
+class Agent <<(M,orchid)>> {
+    +BehaviourTree : Tree
+}
+!endsub
+
+Node -- NodeState
+Node -- ContextContainer
+Tree -- Node
+Agent o-- Tree
+
+@enduml

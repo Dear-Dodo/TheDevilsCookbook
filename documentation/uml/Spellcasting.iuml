@@ -1,0 +1,124 @@
+@startuml spellcasting
+
+!include Style.iuml
+' skinparam groupInheritance 2
+' skinparam Linetype polyline
+hide empty methods
+
+namespace Spellcasting {
+
+    !startsub Spellcaster
+    class Spellcaster << (M,orchid) >> {
+        -_Animator : Animator
+        -_Spells : SpellData[]
+        +SpellListChanged : Event<SpellData[]>
+        +BeginCast(int) : void
+        +CancelCast() : void
+    }
+    !endsub
+
+    abstract class Selector << (M,orchid) >> {
+        #_Targets : List<Target>
+        #_TargetSelected : AsyncAutoResetEvent
+        +{abstract}SelectTargets(count : int, \
+            \ntoken : CancellationToken, \
+            \ntargetValidator : Func<Target, bool>)\
+            \n: Task<Target[]>
+        #{abstract}UpdateSelection()
+        #ConfirmSelect(InputAction.CallbackContext)
+        #EndSelect()
+    }
+
+    !startsub SpellData
+    class SpellData {
+        +Spell : Spell
+        +Cooldown : float
+        +Charges : int
+        +StateChanged : Event
+    }
+    !endsub
+    
+    class Target {
+        +Position : Vector3
+        +AffectableUnit : Affectable
+    }
+
+    class SpellGraphics <<S, LightGray>> {
+        +Decal : Texture2D
+        +VFX : VisualEffect
+    }
+
+    abstract class Spell << (O,orange) >> {
+        +BaseCooldown : float
+        +BaseMaxCharges : int
+        +Range : float
+        #_SelectorGraphics : SpellGraphics
+        #_CastGraphics : SpellGraphics
+        
+        #FinishCast() : Task
+        +Cast(CancellationToken, onCast : Action, onCancel : Action)
+        +Cast(List<Target>, CancellationToken, onCast : Action, onCancel : Action) : Task
+    }
+
+    note as N1
+        Implementations of Spell
+        define behaviour and
+        parameters
+    end note
+
+    Spell -u- Target
+    Selector -d- Target
+
+    Spellcaster *-- SpellData
+    SpellData o-l- Spell
+    Spell *-u- Selector
+
+    Spell *-l- SpellGraphics
+}
+
+
+!$selectors = { "selectors": [
+    "Point", "Direction", "Unit"
+]}
+
+namespace Spellcasting {
+    <> SelectorInheritance
+}
+
+together {
+    !foreach $selector in $selectors.selectors
+        !$name = "Spellcasting." + $selector + "Selector"
+        class $name << (M,orchid) >> {
+            +SelectTargets(count : int, \
+            \ntoken : CancellationToken, \
+            \ntargetValidator : Func<Target, bool>)\
+            \n: Task<Target[]>
+            #UpdateSelection()
+        }
+        SelectorInheritance -u- $name
+    !endfor
+}
+
+Spellcasting.Selector <|-u- SelectorInheritance
+
+!$spells = { "spells": [
+    "Trap", "Push", "Silence", "Slow", "Stun", "Wall", "Pull" 
+    ]}
+
+namespace Spellcasting {
+    <> SpellInheritance
+}
+
+together {
+    !foreach $spell in $spells.spells
+        class Spellcasting.$spell << (O, orange) >> {
+            +Cast() : Task
+        }
+        Spellcasting.$spell -u- SpellInheritance
+    !endfor
+}
+
+Spellcasting.Spell <|-- SpellInheritance
+
+
+@enduml

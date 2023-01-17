@@ -1,0 +1,41 @@
+@startuml spellbar
+
+!include Style.iuml
+
+!includesub Spellcasting.iuml!SpellData
+
+namespace UI.HUD.Spells {
+    class SpellSlotWidget << (M,orchid) >> {
+        -_KeyText : TextMeshProUGUI
+        -_ChargeText : TextMeshProUGUI
+        -_CooldownText : TextMeshProUGUI
+        -_CooldownOverlay : Image
+        -_SpellIcon : Image
+        -_AssignedSpell : SpellData
+
+        -OnSpellStateChanged()
+        -OnControlPress(InputAction.CallbackContext)
+        -OnControlRelease(InputAction.CallbackContext)
+        -TryCastSpell()
+        +AssignSpell(SpellData spell, string control)
+    }
+    class SpellbarWidget << (M,orchid) >> {
+        -_SlotPrefab : Gameobject
+        -_SlotWidgets : List<SpellSlotWidget>
+        -OnSpellListChanged(SpellData[])
+    }
+
+    note left of SpellSlotWidget
+    Handles button presses
+    and reacts to its control
+    being actuated.
+    end note
+
+    SpellSlotWidget -* SpellbarWidget
+}
+
+UI.HUD.Spells.SpellSlotWidget -- SpellData
+UI.HUD.Spells.SpellbarWidget -- SpellData
+
+
+@enduml

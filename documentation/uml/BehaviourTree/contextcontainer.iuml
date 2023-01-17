@@ -1,0 +1,12 @@
+@startuml contextcontainer
+!include Style.iuml
+!startsub ContextContainer
+class ContextContainer<T>
+{
+    +InternalObject : T
+    -internalObject : T
+    +SetData(ref T Data) : bool
+    +TryGetData(out T Data) : bool 
+}
+!endsub
+@enduml

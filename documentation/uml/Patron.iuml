@@ -1,0 +1,41 @@
+@startuml Patron
+!include Style.iuml
+!includesub Interaction.iuml!Interactable
+!includesub Cooking.iuml!Food
+
+!startsub Patron
+class Patron << (M,orchid) >> {
+    +Order : Order
+    -_AnimationController : AnimationController
+}
+!endsub
+!startsub OrderManager
+class OrderManager {
+    +RemainingOrders : int
+    +RemainingTime : float
+    +ActiveOrders : List<Order>
+    +CompletedOrders : List<Order>
+    +OrderCreated : Event<Order>
+
+    +CreateNextOrder() : Order
+    +UpdateOrder(Order)
+    +CompleteOrder(Order)
+    +FailOrder(Order)
+    +Update()
+}
+!endsub
+!startsub Order
+class Order {
+    +Food : Food
+    +Patron : Patron?
+    +Time : float
+    +IsCompleted : bool
+    +Completed : Event<fulfilled : bool>
+}
+!endsub
+
+Patron o--* Order
+Patron ..> IInteractable
+OrderManager *--Order
+Order o-- Food
+@enduml

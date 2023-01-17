@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6fa1d9c4-f3c1-45a0-8e0e-aec57a1171c3}">
+		<property name="name">
+			<value>Cutoff</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b82f919a-2bb1-47f2-aea6-ceab8a8311bc}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5ce5533e-2df2-4597-9bcd-190e00285079}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5ce5533e-2df2-4597-9bcd-190e00285079}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<relationship name="automators">
+			<destination>{6cc999ef-29c3-44ed-a7a6-328511ef208b}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{6cc999ef-29c3-44ed-a7a6-328511ef208b}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

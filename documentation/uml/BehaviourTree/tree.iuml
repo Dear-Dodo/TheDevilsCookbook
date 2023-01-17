@@ -1,0 +1,11 @@
+@startuml tree
+!include Style.iuml
+!startsub Tree
+abstract class Tree <<(M, orchid)>>
+{
+    -_Root : Node
+    +Evaluate() : void
+    #{abstract} InitializeTree() : Node
+}
+!endsub
+@enduml

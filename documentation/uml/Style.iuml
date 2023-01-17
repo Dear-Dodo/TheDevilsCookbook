@@ -1,0 +1,4 @@
+skinparam linetype ortho
+hide empty methods
+hide empty attributes
+!theme reddress-darkblue

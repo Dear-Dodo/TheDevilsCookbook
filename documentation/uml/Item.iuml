@@ -1,0 +1,77 @@
+@startuml item
+
+!include Style.iuml
+
+
+
+!startsub Inventory
+class Inventory << (M,orchid) >> {
+    +Sections : List<Section>
+    +ActiveSlot : (int,int)
+    +InventoryChanged : Action<int, int, StorableObject>
+    +DepositItems(List<Item>, Section)
+    +TryGetItems(out List<Item>, params Query[]) : bool
+    +GetItem((int,int)) : Item
+    +HasItems(params Query[]) : bool
+}
+!endsub
+!startsub IInventoryProvider
+interface IInventoryProvider {
+    -_Inventory : Inventory
+    +ActiveSlot : (int,int)
+    +InventoryChanged : Action<int, int, StorableObject>
+    +DepositItems(List<Item>, Section)
+    +TryGetItems(out List<Item>, params Query[]) : bool
+    +GetItem((int,int)) : Item
+    +HasItems(params Query[]) : bool
+}
+!endsub
+
+
+enum ItemTypes <<Flags>> {
+    Ingredient
+    OrderableFood
+}
+
+struct Query {
+    +ToFind : StorableObject
+    +Quantity : int
+}
+hide Query methods
+
+!startsub StorableObject
+class StorableObject << (O,orange) >> {
+    +Name : string
+    +StorageTypes : ItemTypes
+    +Icon : Texture
+    +Prefab : GameObject[0..1]
+}
+hide StorableObject methods
+!endsub
+
+class Section {
+    +StoredTypes : ItemTypes
+    +Capacity : int
+    +Items : List<Item>
+}
+hide Section methods
+
+
+
+class Item << (M,orchid) >> {
+    +Data : StorableObject
+    +Drop(Vector3 target)
+    +Pickup(transform target)
+}
+
+IInventoryProvider *-- Inventory 
+
+StorableObject -- ItemTypes
+
+Section -r- ItemTypes
+Section -- Item
+
+Inventory -- Section
+Inventory -- Query
+
+Item -r- StorableObject

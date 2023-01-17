@@ -1,0 +1,34 @@
+@startuml ingredientSpawner
+!include Style.iuml
+!includesub Common.iuml!ProcessState
+!includesub BehaviourTree/behavourtree.iuml!Agent
+!includesub Cooking.iuml!Food
+!includesub Interaction.iuml!Interactable
+
+!startsub IngredientSpawner
+class IngredientSpawner {
+    +ActiveIngredients : List<Ingredient>
+    +CreateIngredient(Food) : Ingredient
+    +SpawnIngredient(Ingredient, Vector3)
+    +PickupIngredient(Ingredient)
+}
+!endsub
+
+class SoulImbuer <<(M,orchid)>> {
+    +Spawner : IngredientSpawner
+    +State : ProcessState
+}
+
+class Ingredient <<(M,orchid)>> {
+    +FoodType : Food
+}
+
+IngredientSpawner o-- Ingredient
+
+Ingredient --|> Agent
+Ingredient o-- Food
+
+SoulImbuer ..> IInteractable
+SoulImbuer o-l- IngredientSpawner
+SoulImbuer  -- ProcessState
+@enduml

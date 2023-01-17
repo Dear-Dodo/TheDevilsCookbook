@@ -1,0 +1,37 @@
+@startuml inventoryUI
+
+!include Style.iuml
+
+!includesub Item.iuml!Inventory
+!includesub Item.iuml!StorableObject
+
+remove IInventoryProvider
+
+namespace UI.HUD.Inventory {
+    class InventorySectionSettings << (S,lightgrey) >>
+    {
+        +SlotPrefab : Gameobject
+        +SlotSize : float
+    }
+    class InventoryWidget << (M,orchid) >> {
+        +SlotSettings : InventorySectionSettings[]
+
+        -_Sections : List<List<InventorySlotWidget>>
+        -OnInventoryChanged(int section, int slot, StorableObject value)
+    }
+    class InventorySlotWidget << (M,orchid) >> {
+        -_IconElement : Image
+        -_StoredObject : StorableObject
+        +SetContent(StorableObject)
+    }
+
+    InventoryWidget *-- InventorySectionSettings
+    InventoryWidget *-- InventorySlotWidget
+
+    InventorySectionSettings -[hidden]r- InventorySlotWidget
+}
+
+UI.HUD.Inventory.InventoryWidget o- Inventory
+UI.HUD.Inventory.InventorySlotWidget - StorableObject
+
+@enduml

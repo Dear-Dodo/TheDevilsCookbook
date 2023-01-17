@@ -1,0 +1,7 @@
+This folder contains UML diagrams in the form of PlantUML markup files.
+
+To display the diagrams, you can use any of the mechanisms here:
+https://plantuml.com/running
+
+The most straight-forward method is the visual studio code addon for
+PlantUML.

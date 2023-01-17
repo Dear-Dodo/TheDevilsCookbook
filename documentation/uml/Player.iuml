@@ -1,0 +1,41 @@
+@startuml main
+
+!include Style.iuml
+!includesub Spellcasting.iuml!Spellcaster
+!includesub Item.iuml!IInventoryProvider
+!includesub Interaction.iuml!Interactor
+
+!startsub Player
+class PlayerCharacter << (M,orchid) >> {
+    +Movement : ControlledMovement
+    +Spellcasting : Spellcaster
+    +Interactor : Interactor
+    +Health : Health
+    +SetControllable(bool) : void
+}
+!endsub
+class ControlledMovement << (M,orchid) >> {
+    -_CanMove : bool
+    +SetMoveable(bool)
+}
+
+!startsub PlayerData 
+class PlayerData << (M,orchid) >>
+{
+    +Max : int [+get; +set]
+    +Current : int [+get; -set]
+    +HealthChanged : Action<int>
+    +MaxHealthChanged : Action<int>
+    +SetValue(int)
+    +ModifyValue(int)
+}
+    
+!endsub
+
+PlayerCharacter o-- PlayerData
+PlayerCharacter o-l- Spellcaster
+PlayerCharacter o-u- ControlledMovement
+PlayerCharacter .r.> IInventoryProvider
+PlayerCharacter o-- Interactor
+
+@enduml

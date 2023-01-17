@@ -1,0 +1,16 @@
+@startmindmap egg_ai
+!include Style.iuml
+
+* OrGate
+** AndGate
+*** AndGate
+**** AndGate
+***** DistanceGreaterThanRange
+***** Run To Target
+**** AndGate
+***** DistanceLessThanRange
+***** Move Away From Target
+*** Attack Target
+** Wander
+
+@endmindmap

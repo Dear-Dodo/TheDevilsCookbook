@@ -1,0 +1,43 @@
+@startuml uiWindow
+!include Style.iuml
+
+!startsub IWindow
+interface UI.IWindow {
+    +OnOpen(shouldPlayAnimation : bool) : Task
+    +OnClose(shouldPlayAnimation : bool) : Task
+}
+!endsub
+
+class UI.WindowEntry << (s,lightgrey) >> {
+    +Window : IWindow
+    +IsSingle : bool
+    +InitialState : bool
+    +InitialLayer : int
+}
+class UI.WindowNode {
+    +WindowInstance : IWindow
+    +Entry : WindowEntry
+    +Close(waitForChildren : bool) : Task
+    +Subwindows : List<WindowNode>
+}
+
+class UI.WindowManager << (m,orchid) >> {
+    -_Windows : UnitySerializableDictionary<string, WindowEntry>
+    -_ActiveWindows : SortedList<int, List<WindowNode>>
+    -_History : SortedList<int, DropOutStack<List<WindowEntry>>>
+    +OpenReplace(layer : int, window : string) : WindowNode
+    +OpenAdditive(layer : int, window : string) : WindowNode
+    +OpenSub(parent : WindowNode, toOpen : string) : WindowNode
+    +NavigateBack(layer : int)
+}
+
+UI.WindowEntry -* UI.WindowManager
+
+UI.WindowNode o- UI.IWindow
+UI.WindowNode ..> UI.WindowEntry
+
+UI.IWindow --o UI.WindowEntry
+
+UI.WindowManager *-- UI.WindowNode
+
+@enduml

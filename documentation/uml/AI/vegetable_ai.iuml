@@ -1,0 +1,15 @@
+@startmindmap vegetable_ai
+!include Style.iuml
+
+
+* OrGate
+** AndGate
+*** DistanceBetween
+*** Wander
+** AndGate
+*** SetContextData
+*** DistanceBetween
+*** RunAway
+
+
+@endmindmap

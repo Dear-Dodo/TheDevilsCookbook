@@ -1,0 +1,11 @@
+@startmindmap meat_ai
+!include Style.iuml
+
+
+* OrGate
+** AndGate
+*** DistanceLessThanRange 
+*** ChargeTarget
+** Wander
+
+@endmindmap

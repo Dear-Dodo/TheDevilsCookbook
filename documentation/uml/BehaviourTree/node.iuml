@@ -1,0 +1,39 @@
+@startuml node
+!include Style.iuml
+!includesub contextcontainer.iuml!ContextContainer
+
+!startsub NodeState
+enum NodeState
+{
+    RUNNING
+    SUCCESS
+    FAILURE
+}
+!endsub
+
+!startsub Node
+abstract class Node
+{
+    +Parent : Node
+    +Root : Node
+    #Children : List<Node>
+    #State : NodeState
+    -_DataContext : Dictionary<string, ContextContainer<object>>
+    +Node()
+    +Node(List<Node>)
+    +SetContextData<T>(string, T) : void
+    +SetRootContextData<T>(string, T) : void
+    +GetContextData<T>(string) : T 
+    +GetRootContextData<T>(string) : T
+    +ClearContextData(string) : bool
+    +ClearRootContextData(string) : bool
+    +{abstract} Initialize() : void
+    +{abstract} Dispose() : void
+    +{abstract} Evaluate() : NodeState
+}
+!endsub
+
+NodeState -- Node
+ContextContainer -- Node
+
+@enduml 

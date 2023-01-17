@@ -1,0 +1,45 @@
+@startuml Upgradables
+!include Style.iuml
+class PlayerUpgrade<T>
+{
+    +UpgradeSprite : Sprite
+    +CurrentTier : int
+    +Tiers : List<UpgradeTier<T>>
+    +OnChanged : Action<T>
+
+    +GetValue() : T
+    +GetTier() : UpgradeTier<T>
+    +SetTier(int index) : void
+    +Upgrade(PlayerStats stats) : void
+    +Downgrade(PlayerStats stats) : void
+}
+
+struct UpgradeTier<T>
+{
+    +Item : T
+    +Cost : int
+}
+
+class PlayerUpgradeWindow <<M, orchid>>
+{
+    +UpgradeView : ScrollRect
+    +UpgradeElementTemplate : PlayerUpgradeElementUI
+    +Initialize(PlayerStats stats) : void
+}
+
+class PlayerUpgradeElementUI <<M, orchid>>
+{
+    +UpgradeName : TextMeshProUGUI
+    +UpgradeIcon : Image
+    +TierLayoutGroup : HorizontalLayoutGroup
+    +TierButtonTemplate : Button
+    -_TierButtons : List<Button>
+    +Initialize<T>(PlayerUpgrade<T> upgrade) : void
+}
+
+PlayerUpgradeWindow -  PlayerUpgrade
+PlayerUpgradeWindow - PlayerUpgradeElementUI
+PlayerUpgrade --  PlayerUpgradeElementUI
+PlayerUpgrade -- UpgradeTier
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml orderUI
+
+!include Style.iuml
+!includesub Patron.iuml!OrderManager
+!includesub Patron.iuml!Order
+
+OrderManager *- Order
+!startsub Orders
+namespace UI.HUD.Orders {
+    class OrderListWidget << (m,orchid) >> {
+        -_OrderWidgetPrefab : Gameobject
+        -_OrderWidgets : List<OrderWidget>
+        -OnOrderCreated(Order)
+    }
+
+    class OrderWidget << (m,orchid) >> {
+        -_Timer : Image
+        -_DifficultyBackground : Image
+        -_FoodIcon : Image
+        -_IngredientList : RectTransform
+        -_Order : Order
+
+        +SetOrder(Order)
+        +UpdateTimer()
+        -OnOrderCompleted(bool)
+    }
+
+    OrderListWidget *- OrderWidget
+}
+!endsub
+
+UI.HUD.Orders.OrderListWidget ..> OrderManager
+UI.HUD.Orders.OrderWidget o..> Order
+
+@enduml
